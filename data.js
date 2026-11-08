@@ -1,7 +1,176 @@
 // Arapça Kelime Ezberleme - Setler Veritabanı
-// SET-1, SET-2, SET-3 modüler mimarisi
+// SET-0, SET-1, SET-2, SET-3 modüler mimarisi
 
 const SETS_DATA = {
+  "set0": {
+    id: "set0",
+    name: "SET-0",
+    title: "SET-0: Tanışma, Zamirler & Soru Kalıpları",
+    description: "16 Temel Zamir, Soru Edatı ve Günlük İfade",
+    available: true,
+    words: [
+      {
+        id: 1,
+        arabic: "مَنْ",
+        transcription: "Man",
+        reading: "Men",
+        turkish: "KİM?",
+        note: "Kim? (Şahıslar için soru edatı)",
+        image: "sets/set0/images/image_1.png",
+        audio: "sets/set0/audio/word_1.mp3"
+      },
+      {
+        id: 2,
+        arabic: "إِلَى اللِّقَاءِ",
+        transcription: "ilā l-liqā'",
+        reading: "İle'l-likâ'",
+        turkish: "GÖRÜŞMEK ÜZERE",
+        note: "Tekrar buluşuncaya dek, görüşmek üzere",
+        image: "sets/set0/images/image_2.png",
+        audio: "sets/set0/audio/word_2.mp3"
+      },
+      {
+        id: 3,
+        arabic: "مَا",
+        transcription: "Mā",
+        reading: "Mâ",
+        turkish: "NE? (Müzekker / Nesneler için)",
+        note: "Ne? (Akılsız varlıklar/müzekker için soru edatı)",
+        image: "sets/set0/images/image_3.png",
+        audio: "sets/set0/audio/word_3.mp3"
+      },
+      {
+        id: 4,
+        arabic: "مَا هَذِهِ؟",
+        transcription: "Mā hādhihi?",
+        reading: "Mâ hâzihi?",
+        turkish: "BU NEDİR? (Müennes / Dişil için)",
+        note: "Bu nedir? (Müennes / dişil nesneler için)",
+        image: "sets/set0/images/image_4.png",
+        audio: "sets/set0/audio/word_4.mp3"
+      },
+      {
+        id: 5,
+        arabic: "هَذَا",
+        transcription: "Hādhā",
+        reading: "Hâzâ",
+        turkish: "BU (Müzekker / Eril)",
+        note: "İşaret zamiri: Bu (eril varlıklar için)",
+        image: "sets/set0/images/image_5.png",
+        audio: "sets/set0/audio/word_5.mp3"
+      },
+      {
+        id: 6,
+        arabic: "كَيْفَ حَالُكَ؟",
+        transcription: "Kayfa ḥāluk?",
+        reading: "Keyfe hâlük?",
+        turkish: "NASILSINIZ?",
+        note: "Nasılsın? / Nasılsınız? (Hal hatır sorma)",
+        image: "sets/set0/images/image_6.png",
+        audio: "sets/set0/audio/word_6.mp3"
+      },
+      {
+        id: 7,
+        arabic: "عَفْوًا",
+        transcription: "‘Afwan",
+        reading: "Afvan",
+        turkish: "AFEDERSİNİZ / RİCA EDERİM",
+        note: "Afedersiniz / Özür dilerim / Rica ederim",
+        image: "sets/set0/images/image_7.png",
+        audio: "sets/set0/audio/word_7.mp3"
+      },
+      {
+        id: 8,
+        arabic: "لَا",
+        transcription: "Lā",
+        reading: "Lâ",
+        turkish: "HAYIR",
+        note: "Olumsuz cevap: Hayır",
+        image: "sets/set0/images/image_8.png",
+        audio: "sets/set0/audio/word_8.mp3"
+      },
+      {
+        id: 9,
+        arabic: "نَعَمْ",
+        transcription: "Na‘am",
+        reading: "Ne'am",
+        turkish: "EVET",
+        note: "Olumlu cevap: Evet",
+        image: "sets/set0/images/image_9.png",
+        audio: "sets/set0/audio/word_9.mp3"
+      },
+      {
+        id: 10,
+        arabic: "مَعَ السَّلَامَةِ",
+        transcription: "Ma‘a s-salāmah",
+        reading: "Me'as-selâme",
+        turkish: "GÖRÜŞÜRÜZ / HOŞÇA KALIN",
+        note: "Esenlikle kal, güle güle, görüşürüz",
+        image: "sets/set0/images/image_10.png",
+        audio: "sets/set0/audio/word_10.mp3"
+      },
+      {
+        id: 11,
+        arabic: "نَحْنُ",
+        transcription: "Naḥnu",
+        reading: "Nahnu",
+        turkish: "BİZ",
+        note: "1. Çoğul şahıs zamiri: Biz",
+        image: "sets/set0/images/image_11.png",
+        audio: "sets/set0/audio/word_11.mp3"
+      },
+      {
+        id: 12,
+        arabic: "هِيَ",
+        transcription: "Hiya",
+        reading: "Hiye",
+        turkish: "O (Müennes / Kadın)",
+        note: "3. Tekil şahıs zamiri: O (kadın/müennes)",
+        image: "sets/set0/images/image_12.png",
+        audio: "sets/set0/audio/word_12.mp3"
+      },
+      {
+        id: 13,
+        arabic: "هُوَ",
+        transcription: "Huwa",
+        reading: "Hüve",
+        turkish: "O (Müzekker / Erkek)",
+        note: "3. Tekil şahıs zamiri: O (erkek/müzekker)",
+        image: "sets/set0/images/image_13.png",
+        audio: "sets/set0/audio/word_13.mp3"
+      },
+      {
+        id: 14,
+        arabic: "أَنْتِ",
+        transcription: "Anti",
+        reading: "Enti",
+        turkish: "SEN (Müennes / Kadın)",
+        note: "2. Tekil şahıs zamiri: Sen (kadın)",
+        image: "sets/set0/images/image_14.png",
+        audio: "sets/set0/audio/word_14.mp3"
+      },
+      {
+        id: 15,
+        arabic: "أَنَا",
+        transcription: "Anā",
+        reading: "Ene",
+        turkish: "BEN",
+        note: "1. Tekil şahıs zamiri: Ben",
+        image: "sets/set0/images/image_15.png",
+        audio: "sets/set0/audio/word_15.mp3"
+      },
+      {
+        id: 16,
+        arabic: "مَا هَذَا؟",
+        transcription: "Mā hādhā?",
+        reading: "Mâ hâzâ?",
+        turkish: "BU NEDİR? (Müzekker / Eril)",
+        note: "Bu nedir? (Müzekker / eril nesneler için)",
+        image: "sets/set0/images/image_16.png",
+        audio: "sets/set0/audio/word_16.mp3"
+      }
+    ]
+  },
   "set1": {
     id: "set1",
     name: "SET-1",
