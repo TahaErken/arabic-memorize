@@ -36,9 +36,18 @@ jobs:
           npx cap add android
           npx cap sync android
 
-      - name: Allow Cleartext & Audio in AndroidManifest
+      - name: Allow Cleartext & Audio in AndroidManifest and Fix Kotlin Duplicate Classes
         run: |
           sed -i 's/<application/<application android:usesCleartextTraffic="true"/g' android/app/src/main/AndroidManifest.xml || true
+          echo "" >> android/app/build.gradle
+          echo "configurations.all {" >> android/app/build.gradle
+          echo "    resolutionStrategy.eachDependency { DependencyResolveDetails details ->" >> android/app/build.gradle
+          echo "        if (details.requested.group == 'org.jetbrains.kotlin' && (details.requested.name == 'kotlin-stdlib-jdk7' || details.requested.name == 'kotlin-stdlib-jdk8')) {" >> android/app/build.gradle
+          echo "            details.useTarget('org.jetbrains.kotlin:kotlin-stdlib:1.8.22')" >> android/app/build.gradle
+          echo "        }" >> android/app/build.gradle
+          echo "    }" >> android/app/build.gradle
+          echo "}" >> android/app/build.gradle
+          tail -n 15 android/app/build.gradle
 
       - name: Build Debug APK
         run: |
