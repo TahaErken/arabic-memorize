@@ -24,13 +24,10 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Prepare Web Assets for Capacitor
         run: |
           mkdir -p www
-          cp -r index.html styles.css app.js data.js sets www/
+          cp -r index.html styles.css app.js data.js sets confetti.min.js www/
           ls -la www
 
       - name: Install Capacitor CLI & Android
