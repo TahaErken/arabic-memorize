@@ -1,0 +1,10 @@
+{
+  "name": "arabic-memorize",
+  "version": "1.0.0",
+  "description": "Arapca Kelime Ezberleme ve Hizli Test",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {}
+}

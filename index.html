@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Arapça Kelime Ezberleme & 7 Sn Hızlı Test</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22><text y=%2226%22 font-size=%2224%22>📖</text></svg>">
+</head>
+<body>
+
+  <!-- Kırmızı Ekran Flaş Efekti (Yanlış Cevap & Süre Bitişinde) -->
+  <div id="screenRedFlash" class="screen-red-flash"></div>
+
+  <!-- ======================================================== -->
+  <!-- ANA İÇERİK KONTEYNERİ -->
+  <!-- ======================================================== -->
+  <div class="app-container">
+
+    <!-- ======================================================== -->
+    <!-- ÜST NAVİGASYON BARI (ANA SAYFA, MOD & SET DROPDOWNLARI) -->
+    <!-- ======================================================== -->
+    <header class="app-header-nav">
+      <div class="nav-left-group">
+        <!-- 1. ANA SAYFA BUTONU -->
+        <button class="header-nav-btn home-btn" id="homeNavBtn" type="button" title="Ana Sayfa ve Tüm Setler">
+          <span class="btn-icon">🏠</span>
+          <span class="btn-label">Ana Sayfa</span>
+        </button>
+
+        <!-- 2. MOD SEÇİMİ DROPDOWN -->
+        <div class="dropdown-container" id="modeDropdownContainer">
+          <button class="header-dropdown-btn mode-btn" id="modeDropdownBtn" type="button" aria-expanded="false" title="Çalışma Modunu Değiştir">
+            <span class="btn-icon" id="headerModeIcon">🎴</span>
+            <span class="dropdown-selected-label" id="headerModeLabel">Ezber Modu</span>
+            <span class="dropdown-caret">▾</span>
+          </button>
+          <div class="dropdown-popover" id="modeDropdownPopover">
+            <button class="dropdown-popover-item active" data-mode="learn" type="button">
+              <span class="popover-item-icon">🎴</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">1. Ezber Modu</span>
+                <span class="popover-item-desc">Resimler, Arapça ve sesli kartlar</span>
+              </div>
+            </button>
+            <button class="dropdown-popover-item" data-mode="test" type="button">
+              <span class="popover-item-icon">⚡</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">2. 7 Sn Hızlı Test</span>
+                <span class="popover-item-desc">7 saniye hız rekoru & çoktan seçmeli</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. SET SEÇİMİ DROPDOWN -->
+        <div class="dropdown-container" id="setDropdownContainer">
+          <button class="header-dropdown-btn set-btn" id="setDropdownBtn" type="button" aria-expanded="false" title="Kelime Setini Değiştir">
+            <span class="set-badge-icon sm" id="headerSetBadge">1</span>
+            <span class="dropdown-selected-label" id="headerSetLabel">SET-1: Temel Sıfatlar</span>
+            <span class="dropdown-caret">▾</span>
+          </button>
+          <div class="dropdown-popover set-popover" id="setDropdownPopover">
+            <!-- FAVORİLER -->
+            <button class="dropdown-popover-item fav-item" data-set-id="favorites" type="button">
+              <span class="set-badge-icon fav sm">⭐</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">⭐ Favori Kelimelerim</span>
+                <span class="popover-item-desc" id="dropdownFavCount">0 Kelime</span>
+              </div>
+            </button>
+            <div class="popover-divider"></div>
+            <!-- SET-1 -->
+            <button class="dropdown-popover-item active" data-set-id="set1" type="button">
+              <span class="set-badge-icon sm">1</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">SET-1: Temel Sıfatlar</span>
+                <span class="popover-item-desc">25 Kelime • Sıfat & Zıt Anlamlar</span>
+              </div>
+            </button>
+            <!-- SET-2 -->
+            <button class="dropdown-popover-item" data-set-id="set2" type="button">
+              <span class="set-badge-icon sm">2</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">SET-2: İsimler & Eşyalar</span>
+                <span class="popover-item-desc">20 Kelime • Eşyalar & Varlıklar</span>
+              </div>
+            </button>
+            <!-- SET-3 -->
+            <button class="dropdown-popover-item" data-set-id="set3" type="button">
+              <span class="set-badge-icon sm">3</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">SET-3: Cümleler & İfadeler</span>
+                <span class="popover-item-desc">18 İfade • Temel Cümleler</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right-group">
+        <div class="nav-stat-chip" id="navStatChip" title="Mevcut Konum">
+          <span id="navStatText">📌 1 / 25</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================================================== -->
+    <!-- PANEL 0: ANA SAYFA & TÜM SETLERİN GÖRSEL KATALOĞU -->
+    <!-- ======================================================== -->
+    <section id="homeView" class="view-panel">
+      <!-- 1. SETLER LİSTESİ BÖLÜMÜ -->
+      <div id="homeSetsListSection" class="home-section">
+        <div class="home-sets-grid" id="homeSetsGrid">
+          <!-- JS dinamik olarak tüm setleri flaş kart şeklinde oluşturacak -->
+        </div>
+      </div>
+
+      <!-- 2. SEÇİLEN SETİN TÜM GÖRSELLERİ VE ANLAMLARI TEK SAYFADA -->
+      <div id="homeSetDetailSection" class="home-section" style="display: none;">
+        <div class="set-detail-header-card">
+          <div class="detail-top-row">
+            <button class="back-to-sets-btn" id="backToHomeSetsBtn" type="button">
+              <span>⬅️</span>
+              <span>Tüm Setlere Dön</span>
+            </button>
+            <div class="set-detail-actions">
+              <button class="primary-action-btn learn-btn" id="startLearnFromSetBtn" type="button">
+                <span>🎴</span>
+                <span>Bu Setle Ezbere Başla</span>
+              </button>
+              <button class="primary-action-btn test-btn" id="startTestFromSetBtn" type="button">
+                <span>⚡</span>
+                <span>Bu Setle Test Çöz</span>
+              </button>
+            </div>
+          </div>
+          <div class="detail-set-info">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+              <span class="set-badge-icon" id="detailSetBadge">1</span>
+              <h2 id="detailSetTitle" class="detail-set-title">SET-1: Temel Sıfatlar</h2>
+            </div>
+            <p id="detailSetDesc" class="detail-set-desc">25 Temel Arapça Sıfat & Zıt Anlamlılar</p>
+          </div>
+        </div>
+
+        <!-- TEK SAYFADA TÜM GÖRSELLER VE ANLAMLAR GRID'İ -->
+        <div class="all-words-grid" id="detailWordsGrid">
+          <!-- JS tarafından her kelimenin resmi, arapçası, latincesi ve türkçesi ile doldurulacak -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- PANEL 1: EZBER MODU -->
+    <!-- ======================================================== -->
+    <main id="learnView" class="view-panel active">
+      <div class="main-card">
+        
+        <!-- Kart Üst Barı -->
+        <div class="card-header-bar">
+          <div class="counter-pill">
+            <span>📌 Kelime <strong id="currentCardNum">1</strong> / <span id="totalCardNum">25</span></span>
+          </div>
+
+          <div class="header-actions">
+            <button class="icon-btn" id="openGalleryBtn" title="Tüm Kelimeler Galerisi">📋 Galeri</button>
+            <button class="icon-btn" id="shuffleCardsBtn" title="Kartları Karıştır">🔀 Karıştır</button>
+          </div>
+        </div>
+
+        <!-- BOŞ FAVORİ SETİ BİLGİLENDİRMESİ -->
+        <div id="learnFavEmptyBox" class="fav-empty-card" style="display: none;">
+          <div class="fav-empty-icon">⭐</div>
+          <h3 class="fav-empty-title">Henüz Favori Kelimeniz Yok</h3>
+          <p class="fav-empty-desc">
+            Çalışırken pekiştirmek istediğiniz kelimelerin yanındaki <strong>⭐ (Yıldız)</strong> butonuna tıklayarak favorilerinize ekleyebilirsiniz. Favori setinizle dilediğiniz zaman özel ezber ve 7 saniye hızlı test yapabilirsiniz!
+          </p>
+          <button class="primary-btn" id="favEmptyGoSet1Btn" type="button">
+            <span>📚 SET-1'e Git ve Kelime Ekle</span>
+          </button>
+        </div>
+
+        <div id="learnCardBody">
+          <!-- 1. GÖRSEL (Önce Resmi Gösterir) -->
+          <div class="image-viewport">
+            <img id="learnImage" src="" alt="Kelime Görseli">
+          </div>
+
+          <!-- 2. ALTINDA ARAPÇASI & OKUNUŞU -->
+          <div class="word-display-area">
+            <div class="arabic-box">
+              <div id="learnArabic" class="arabic-word">...</div>
+              <div class="arabic-phonetic">
+                <span id="learnReading">...</span>
+                <button class="speak-btn" id="speakWordBtn" title="Arapça Telaffuzu Dinle">🔊</button>
+                <button class="fav-toggle-btn" id="learnFavBtn" type="button" title="Favorilere Ekle / Çıkar">⭐</button>
+              </div>
+            </div>
+
+            <!-- 3. TIKLAYINCA TÜRKÇESİ (Revealed / Hidden Toggle) -->
+            <div class="meaning-section">
+              <button class="reveal-trigger-btn" id="revealTriggerBtn" type="button">
+                <span class="reveal-hint-text">
+                  <span class="reveal-hint-icon">👆</span>
+                  Türkçe Anlamını Görmek İçin Tıklayın
+                </span>
+              </button>
+
+              <div class="meaning-revealed-box" id="meaningRevealedBox" title="Gizlemek için tıklayın">
+                <div id="turkishWord" class="turkish-main-word">...</div>
+                <div id="turkishNote" class="turkish-note">...</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alt Navigasyon Butonları -->
+          <div class="nav-controls-bar">
+            <button class="nav-btn btn-prev" id="prevCardBtn" type="button">
+              <span>⬅️ Önceki</span>
+            </button>
+            <button class="nav-btn btn-next" id="nextCardBtn" type="button">
+              <span>Sonraki ➡️</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- ======================================================== -->
+    <!-- PANEL 2: TEST MODU (7 Sn, Sola Yaslı Arapça + Latin) -->
+    <!-- ======================================================== -->
+    <section id="testView" class="view-panel">
+      <div class="main-card" id="quizCard">
+        
+        <!-- Üst Menü & Test İstatistikleri -->
+        <div class="test-top-row">
+          <div class="quiz-stat-pill">
+            <span>⏱️ <strong id="quizTotalTime">0.0s</strong></span>
+          </div>
+          <div class="timer-badge-box">
+            <span class="timer-title">⏳ Kalan:</span>
+            <span id="timerSecondsBadge" class="timer-seconds-badge green">7.0s</span>
+          </div>
+          <div class="quiz-stat-pill">
+            <span>⚡ Rekor: <strong id="quizBestTime">--</strong></span>
+          </div>
+          <div class="quiz-stat-pill">
+            <span>📊 <strong id="quizProgress">1 / 20</strong></span>
+          </div>
+          <button id="quizFavBtn" class="fav-toggle-btn quiz-fav" type="button" title="Bu Kelimeyi Favorilere Ekle / Çıkar">
+            ⭐
+          </button>
+          <button id="bgmMuteBtn" class="bgm-toggle-btn" type="button" title="Heyecan Verici Müziği Aç / Kapat">
+            <span id="bgmIcon">🎵</span>
+            <span id="bgmLabel" class="bgm-label">Müzik</span>
+          </button>
+        </div>
+
+        <!-- BOŞ FAVORİ TEST BİLGİLENDİRMESİ -->
+        <div id="testFavEmptyBox" class="fav-empty-card" style="display: none;">
+          <div class="fav-empty-icon">⚡⭐</div>
+          <h3 class="fav-empty-title">Favori Testi İçin Kelime Ekleyin</h3>
+          <p class="fav-empty-desc">
+            Favori kelimelerinizle 7 saniye hızlı test yapabilmek için en az 1 kelimeyi favorilerinize eklemelisiniz.
+          </p>
+          <button class="primary-btn" id="testEmptyGoSet1Btn" type="button">
+            <span>📚 SET-1'e Git ve Kelime Seç</span>
+          </button>
+        </div>
+
+        <div id="testCardBody">
+          <!-- 7 SANİYE SAYACI ÇUBUĞU -->
+          <div class="timer-container">
+            <div id="timerFill" class="timer-fill"></div>
+          </div>
+
+          <!-- TEST GÖRSELİ (Doğal 16/9 Boyut, Sıfır Siyah Boşluk) -->
+          <div class="image-viewport" id="quizImageViewport">
+            <img id="quizImage" src="" alt="Test Görseli">
+
+            <!-- Sağ Alt Köşe: Türkçe Anlam İpucu Butonu -->
+            <button id="quizHintBtn" class="quiz-hint-btn" type="button" title="Görselin Türkçe Anlamını Göster">
+              <span class="hint-icon">❓</span>
+            </button>
+            <div id="quizHintOverlay" class="quiz-hint-overlay" style="display: none;">
+              <span class="hint-label">💡 Türkçe:</span>
+              <strong id="quizHintText" class="hint-text">...</strong>
+            </div>
+
+            <!-- Yanlış Cevapta Ana Odak: Doğru Cevap Katmanı -->
+            <div id="quizCorrectFocusOverlay" class="quiz-correct-focus-overlay" style="display: none;">
+              <div class="focus-alert-badge" id="focusAlertBadge">🚨 Yanlış Cevap!</div>
+              <div class="focus-correct-label">Doğru Cevap:</div>
+              <div id="focusArabicWord" class="focus-ar-word">...</div>
+              <div id="focusLatinWord" class="focus-latin-word">...</div>
+              <div id="focusTurkishWord" class="focus-tr-word">...</div>
+            </div>
+          </div>
+
+          <!-- 3 ÇOKTAN SEÇMELİ SEÇENEK (Sola Yaslı Arapça, Altında Latin, Yanında Türkçe) -->
+          <div class="quiz-options-list" id="quizOptionsList">
+            <!-- JS dinamik üretecek -->
+          </div>
+
+          <!-- Geri Bildirim Barı -->
+          <div id="quizFeedbackBox" class="quiz-feedback-box">
+            <div id="feedbackHeadline" class="feedback-headline"></div>
+            <div id="feedbackDetail" class="feedback-detail"></div>
+          </div>
+
+          <!-- Sonraki Soru Butonu -->
+          <button id="nextQuestionBtn" class="next-question-btn" type="button" style="display: none;">
+            <span id="nextBtnText">Sonraki Soru (3s)</span>
+            <span>➡️</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL: TEST SONUCU & HIZ REKORU -->
+  <!-- ======================================================== -->
+  <div id="summaryModal" class="modal-backdrop">
+    <div class="modal-content">
+      <div id="modalEmoji" class="summary-emoji">🏆</div>
+      <h2 id="modalTitle" class="summary-title">Tebrikler!</h2>
+      <p id="modalDescription" class="summary-desc">Test tamamlandı.</p>
+
+      <div class="summary-score-box">
+        <div class="score-metric">
+          <span class="metric-label">Bitirme Süreniz</span>
+          <span id="modalFinalTime" class="metric-val primary">0.0s</span>
+        </div>
+        <div class="score-metric">
+          <span class="metric-label">En Hızlı Rekor</span>
+          <span id="modalRecordTime" class="metric-val">0.0s</span>
+        </div>
+      </div>
+      <div id="modalPenaltyDetail" style="font-size: 0.85rem; color: #64748b; margin-bottom: 14px;"></div>
+
+      <div class="modal-actions">
+        <button id="restartTestBtn" class="nav-btn btn-next" type="button">
+          <span>🔄 Yeniden Başlat</span>
+        </button>
+        <button id="backToLearnBtn" class="nav-btn btn-prev" type="button">
+          <span>📖 Ezber Moduna Dön</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL: TÜM KELİMELER GALERİSİ -->
+  <!-- ======================================================== -->
+  <div id="galleryModal" class="modal-backdrop">
+    <div class="modal-content gallery-modal-content">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+        <h2 id="galleryModalTitle" style="font-size: 1.25rem; font-weight: 800; color: #0f172a;">Tüm Kelimeler</h2>
+        <button id="closeGalleryBtn" class="icon-btn" style="border: none; font-size: 1.2rem;">✖</button>
+      </div>
+      <div id="galleryGrid" class="gallery-grid">
+        <!-- JS dolduracak -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scriptler -->
+  <script src="confetti.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

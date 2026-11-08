@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Android / Capacitor build artifacts
+www/
+android/
+.gradle/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db

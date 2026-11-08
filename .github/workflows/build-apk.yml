@@ -1,0 +1,80 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Prepare Web Assets for Capacitor
+        run: |
+          mkdir -p www
+          cp -r index.html styles.css app.js data.js sets www/
+          ls -la www
+
+      - name: Install Capacitor CLI & Android
+        run: |
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npx cap add android
+          npx cap sync android
+
+      - name: Allow Cleartext & Audio in AndroidManifest
+        run: |
+          sed -i 's/<application/<application android:usesCleartextTraffic="true"/g' android/app/src/main/AndroidManifest.xml || true
+
+      - name: Build Debug APK
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace
+
+      - name: Locate and Rename APK
+        run: |
+          mkdir -p release-apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk release-apk/Arapca-Ezber-v1.0.apk
+          ls -lh release-apk/
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Arapca-Ezber-APK
+          path: release-apk/Arapca-Ezber-v1.0.apk
+          retention-days: 14
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/heads/main') || startsWith(github.ref, 'refs/heads/master')
+        with:
+          tag_name: v1.0.0-${{ github.run_number }}
+          name: Arapça Ezber APK v1.0 (Build ${{ github.run_number }})
+          body: |
+            🎉 **Arapça Kelime Ezberleme ve 7 Sn Hızlı Test APK'sı Hazır!**
+            
+            - Tüm SET-1, SET-2 ve SET-3 kelimeleri / ifadeleri
+            - Dahili sesler ve görseller
+            - Hem telefon hem tablet uyumlu dikey ekran desteği
+            - Aşağıdaki `Arapca-Ezber-v1.0.apk` dosyasını telefonunuza indirip doğrudan kurabilirsiniz.
+          files: release-apk/Arapca-Ezber-v1.0.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
