@@ -126,11 +126,12 @@ class SoundFX {
     } catch (e) {}
   }
 
-  // Kırmızı Dıııt / Yanlış / Süre Bitti Sesi (Buzzer DZZZZT!)
+  // Yumuşak / Düşük Tonlu Yanlış Sesi (Kulak tırmalamayan soft ton)
   playBuzzer() {
     this.init();
     try {
       this.audioBuzzer.currentTime = 0;
+      this.audioBuzzer.volume = 0.55;
       const playPromise = this.audioBuzzer.play();
       if (playPromise) {
         playPromise.catch(() => this.fallbackBuzzer());
@@ -145,21 +146,22 @@ class SoundFX {
       if (!this.ctx) return;
       const now = this.ctx.currentTime;
 
+      // Sert testere dişi (sawtooth/square) yerine yumuşak çift sinüs (sine) dalgası
       const osc1 = this.ctx.createOscillator();
       const osc2 = this.ctx.createOscillator();
       const gain = this.ctx.createGain();
 
-      osc1.type = 'sawtooth';
-      osc1.frequency.setValueAtTime(130, now);
-      osc1.frequency.linearRampToValueAtTime(110, now + 0.5);
+      osc1.type = 'sine';
+      osc1.frequency.setValueAtTime(165, now);
+      osc1.frequency.exponentialRampToValueAtTime(120, now + 0.3);
 
-      osc2.type = 'square';
-      osc2.frequency.setValueAtTime(135, now);
-      osc2.frequency.linearRampToValueAtTime(115, now + 0.5);
+      osc2.type = 'sine';
+      osc2.frequency.setValueAtTime(124, now);
+      osc2.frequency.exponentialRampToValueAtTime(90, now + 0.3);
 
-      gain.gain.setValueAtTime(0.35, now);
-      gain.gain.setValueAtTime(0.35, now + 0.4);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.55);
+      gain.gain.setValueAtTime(0, now);
+      gain.gain.linearRampToValueAtTime(0.2, now + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
 
       osc1.connect(gain);
       osc2.connect(gain);
@@ -167,8 +169,8 @@ class SoundFX {
 
       osc1.start(now);
       osc2.start(now);
-      osc1.stop(now + 0.55);
-      osc2.stop(now + 0.55);
+      osc1.stop(now + 0.32);
+      osc2.stop(now + 0.32);
     } catch (e) {}
   }
 
@@ -801,14 +803,10 @@ function handleOptionClick(selectedItem, btnElement) {
   allBtns.forEach(b => b.disabled = true);
 
   if (isCorrect) {
-    const savedSeconds = Math.max(1, Math.round(app.test.timeRemaining));
-
     btnElement.classList.add('correct-choice', 'show-turkish');
     sfx.playSuccess();
     triggerConfetti();
 
-    spawnFloatingPill(btnElement, `+${savedSeconds} sn`, 'gain');
-    showFeedback(true, `Harika! Doğru bildin! (+${savedSeconds} sn)`);
     updateQuizStats();
 
     // DOĞRU BİLİNCE HEMEN ANLAMI OKUNSUN (Arapça seslendirme çalınır)
@@ -819,13 +817,9 @@ function handleOptionClick(selectedItem, btnElement) {
       nextQuizQuestion();
     }, 1200);
   } else {
-    app.test.totalPenalties += 2;
-
     btnElement.classList.add('wrong-choice', 'show-turkish');
     triggerWrongBuzzerAndHighlight();
 
-    spawnFloatingPill(btnElement, `-2 sn`, 'penalty');
-    showFeedback(false, `Dıııt! Yanlış cevap. (+2 sn ceza eklendi)`);
     updateQuizStats();
     startThreeSecondAutoAdvance();
   }
@@ -839,11 +833,8 @@ function handleTimeout() {
   const allBtns = document.querySelectorAll('.quiz-opt-btn');
   allBtns.forEach(b => b.disabled = true);
 
-  app.test.totalPenalties += 2;
   triggerWrongBuzzerAndHighlight(true);
 
-  spawnFloatingPill(null, `-2 sn`, 'penalty');
-  showFeedback(false, `⏰ 7 Saniyelik Süre Doldu! (+2 sn ceza eklendi)`);
   updateQuizStats();
   startThreeSecondAutoAdvance();
 }
@@ -901,16 +892,11 @@ function triggerWrongBuzzerAndHighlight(isTimeout = false) {
 }
 
 function showFeedback(isCorrect, headlineText) {
+  // Şıkların altındaki geri bildirim kutusu kullanıcının isteğiyle gizlendi
   const box = document.getElementById('quizFeedbackBox');
-  const headline = document.getElementById('feedbackHeadline');
-  const detail = document.getElementById('feedbackDetail');
-  const item = app.test.currentQuestion;
-
-  box.style.display = 'block';
-  box.className = `quiz-feedback-box ${isCorrect ? 'correct' : 'wrong'}`;
-
-  headline.innerHTML = isCorrect ? `✨ ${headlineText}` : `🚨 ${headlineText}`;
-  detail.innerHTML = `Doğru Cevap: <strong>${item.arabic}</strong> = <strong>${item.turkish}</strong>`;
+  if (box) {
+    box.style.display = 'none';
+  }
 }
 
 // 3 SANİYE İÇİNDE OTOMATİK GEÇİŞ
@@ -977,7 +963,7 @@ function finishTestAndShowSummary() {
   recordTimeEl.textContent = `${app.test.bestTime.toFixed(1)}s`;
   document.getElementById('quizBestTime').textContent = `${app.test.bestTime.toFixed(1)}s`;
 
-  penaltyDetailEl.innerHTML = `Ham Süre: <strong>${realDuration.toFixed(1)}s</strong> | Toplam Ceza: <strong style="color: #dc2626;">+${app.test.totalPenalties}s</strong> (${app.test.totalPenalties / 2} yanlış/zaman aşımı)`;
+  penaltyDetailEl.innerHTML = `Toplam Süre: <strong>${finalTime.toFixed(1)}s</strong>`;
 
   if (isNewRecord) {
     titleEl.textContent = 'YENİ HIZ REKORU! 🏆⚡';
