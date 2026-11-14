@@ -1,0 +1,4 @@
+1- videoyu detaylı analiz eden ve öğrenmek için kelime ve ifadeleri çıkartan script
+2- bu text'i anlaşılır, dil öğrenmeye uygun, ve telefondan da görülebilecek ana ifadeyi vurgulayan resme dönüştürme promptlarını json olarak hazırlayan script. 
+3- chrome extensiona json'u ben vereyim. 
+4- game feeling

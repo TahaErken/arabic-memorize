@@ -8,6 +8,9 @@ android/
 .gradle/
 local.properties
 
-# OS
+# OS & Office lock files
 .DS_Store
 Thumbs.db
+~$*
+Arapca-Ezber-APK/
+generation/
