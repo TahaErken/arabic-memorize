@@ -1,0 +1,192 @@
+{
+  "gorsel_setleri": [
+    {
+      "id": "1",
+      "terim": "Es-semâu: Gökyüzü"
+    },
+    {
+      "id": "2",
+      "terim": "El-faslu: Sınıf"
+    },
+    {
+      "id": "3",
+      "terim": "El-mirhadu: Lavabo / Tuvalet"
+    },
+    {
+      "id": "4",
+      "terim": "El-hammâmu: Hamam / Banyo"
+    },
+    {
+      "id": "5",
+      "terim": "El-gurfetu / El-gurfe: Oda"
+    },
+    {
+      "id": "6",
+      "terim": "El-matbahu / El-matbah: Mutfak"
+    },
+    {
+      "id": "7",
+      "terim": "El-medresetu: Okul"
+    },
+    {
+      "id": "8",
+      "terim": "El-câmiatu: Üniversite"
+    },
+    {
+      "id": "9",
+      "terim": "El-müdîru: Müdür"
+    },
+    {
+      "id": "10",
+      "terim": "Es-sûku: Çarşı / Pazar"
+    },
+    {
+      "id": "11",
+      "terim": "Eş-şâriu: Cadde / Sokak"
+    },
+    {
+      "id": "12",
+      "terim": "Es-seyyâretu: Araba"
+    },
+    {
+      "id": "13",
+      "terim": "Türkiyâ: Türkiye"
+    },
+    {
+      "id": "14",
+      "terim": "Es-sîn: Çin"
+    },
+    {
+      "id": "15",
+      "terim": "El-yâbân: Japonya"
+    },
+    {
+      "id": "16",
+      "terim": "El-hind: Hindistan"
+    },
+    {
+      "id": "17",
+      "terim": "El-fîlîbbîn: Filipinler"
+    },
+    {
+      "id": "18",
+      "terim": "Fî: İçinde"
+    },
+    {
+      "id": "19",
+      "terim": "Alâ: Üstünde"
+    },
+    {
+      "id": "20",
+      "terim": "Min: -den / -dan"
+    },
+    {
+      "id": "21",
+      "terim": "İlâ: -e / -a doğru"
+    },
+    {
+      "id": "22",
+      "terim": "Eyne: Nerede?"
+    },
+    {
+      "id": "23",
+      "terim": "Men: Kim?"
+    },
+    {
+      "id": "24",
+      "terim": "Mâzâ: Ne?"
+    },
+    {
+      "id": "25",
+      "terim": "Naam (Nâmi): Evet"
+    },
+    {
+      "id": "26",
+      "terim": "Lâ: Hayır"
+    },
+    {
+      "id": "27",
+      "terim": "Eyne Muhammedun? - Hüve fil-gurfeti. (Muhammed nerede? - O odada.)"
+    },
+    {
+      "id": "28",
+      "terim": "Eyne Yâsirun? - Hüve fil-hammâmi. (Yasir nerede? - O banyoda.)"
+    },
+    {
+      "id": "29",
+      "terim": "Eyne Âminetu? - Hiye fil-matbahi. (Amine nerede? - O mutfakta.)"
+    },
+    {
+      "id": "30",
+      "terim": "Eyne el-kitâbu? - Hüve alel-mektebi. (Kitap nerede? - O masanın üzerinde.)"
+    },
+    {
+      "id": "31",
+      "terim": "Eyne es-sâatu? - Hiye alel-mektebi. (Saat nerede? - O masanın üzerinde.)"
+    },
+    {
+      "id": "32",
+      "terim": "Men fil-gurfeti? - Muhammedun fil-gurfeti. (Odada kim var? - Muhammed odada.)"
+    },
+    {
+      "id": "33",
+      "terim": "Men fil-hammâmi? - Yâsirun fil-hammâmi. (Banyoda kim var? - Yasir banyoda.)"
+    },
+    {
+      "id": "34",
+      "terim": "Men fil-matbahi? - Âminetu fil-matbahi. (Mutfakta kim var? - Amine mutfakta.)"
+    },
+    {
+      "id": "35",
+      "terim": "E-Muhammedun fil-gurfeti? - Naam, hüve fil-gurfeti. (Muhammed odada mı? - Evet, o odada.)"
+    },
+    {
+      "id": "36",
+      "terim": "E-Yâsirun fil-gurfeti? - Lâ, Muhammedun fil-gurfeti. (Yasir odada mı? - Hayır, Muhammed odada.)"
+    },
+    {
+      "id": "37",
+      "terim": "E-Muhammedun fil-hammâmi? - Lâ, Yâsirun fil-hammâmi. (Muhammed banyoda mı? - Hayır, Yasir banyoda.)"
+    },
+    {
+      "id": "38",
+      "terim": "E-Âminetu fil-matbahi? - Naam. (Amine mutfakta mı? - Evet.)"
+    },
+    {
+      "id": "39",
+      "terim": "Mâzâ alâl-mektebi? - Al-kitâbu alâl-mektebi. (Masanın üzerinde ne var? - Kitap masanın üzerinde.)"
+    },
+    {
+      "id": "40",
+      "terim": "Mâzâ alâl-mektebi? - Es-sâatu alâl-mektebi. (Masanın üzerinde ne var? - Saat masanın üzerinde.)"
+    },
+    {
+      "id": "41",
+      "terim": "Min eyne ente? - Ene min-el-yâbâni. (Sen neredensin/nerelisin? - Ben Japonya'danım.)"
+    },
+    {
+      "id": "42",
+      "terim": "Min eyne Ammârun? - Hüve min-es-sîni. (Ammar nereli? - O Çinli.)"
+    },
+    {
+      "id": "43",
+      "terim": "Min eyne Hâmidun? - Hüve mine-l-hindi. (Hâmid nereli? - O Hindistanlı.)"
+    },
+    {
+      "id": "44",
+      "terim": "Eyne zehebe Abbasun? - Zehebe ilel-müdîri. (Abbas nereye gitti? - Müdüre gitti.)"
+    },
+    {
+      "id": "45",
+      "terim": "Zehebe ile-s-sûk. (Çarşıya gitti.)"
+    },
+    {
+      "id": "46",
+      "terim": "Harace el-müderrisu mine-l-fasli. (Öğretmen sınıftan çıktı.)"
+    },
+    {
+      "id": "47",
+      "terim": "Harace Hâmidun mine-l-gurfe. (Hâmid odadan çıktı.)"
+    }
+  ]
+}

@@ -836,7 +836,486 @@ const SETS_DATA = {
         audio: "sets/set3/audio/word_18.mp3"
       }
     ]
-  }
+  },
+  "set4": {
+    "id": "set4",
+    "name": "SET-4",
+    "title": "SET-4: Mekanlar, Harf-i Cerler & Diyaloglar",
+    "description": "47 İfade: Harf-i Cerler, Mekanlar, Ülkeler ve Soru-Cevaplar",
+    "available": true,
+    "words": [
+        {
+            "id": 1,
+            "arabic": "اَلسَّمَاءُ",
+            "transcription": "as-Samā'",
+            "reading": "Es-semâ'",
+            "turkish": "GÖKYÜZÜ",
+            "note": "Gökyüzü, sema",
+            "image": "sets/set4/images/1.png",
+            "audio": "sets/set4/audio/word_1.mp3"
+        },
+        {
+            "id": 2,
+            "arabic": "اَلْفَصْلُ",
+            "transcription": "al-Faṣl",
+            "reading": "El-fasl",
+            "turkish": "SINIF",
+            "note": "Derslik, sınıf",
+            "image": "sets/set4/images/2.png",
+            "audio": "sets/set4/audio/word_2.mp3"
+        },
+        {
+            "id": 3,
+            "arabic": "اَلْمِرْحَاضُ",
+            "transcription": "al-Mirḥāḍ",
+            "reading": "El-mirhâd",
+            "turkish": "LAVABO / TUVALET",
+            "note": "Tuvalet, hela, lavabo",
+            "image": "sets/set4/images/3.png",
+            "audio": "sets/set4/audio/word_3.mp3"
+        },
+        {
+            "id": 4,
+            "arabic": "اَلْحَمَّامُ",
+            "transcription": "al-Ḥammām",
+            "reading": "El-hammâm",
+            "turkish": "BANYO / HAMAM",
+            "note": "Banyo, yıkanma yeri",
+            "image": "sets/set4/images/4.png",
+            "audio": "sets/set4/audio/word_4.mp3"
+        },
+        {
+            "id": 5,
+            "arabic": "اَلْغُرْفَةُ",
+            "transcription": "al-Ghurfah",
+            "reading": "El-gurfe",
+            "turkish": "ODA",
+            "note": "Oda, konut bölümü",
+            "image": "sets/set4/images/5.png",
+            "audio": "sets/set4/audio/word_5.mp3"
+        },
+        {
+            "id": 6,
+            "arabic": "اَلْمَطْبَخُ",
+            "transcription": "al-Maṭbakh",
+            "reading": "El-matbah",
+            "turkish": "MUTFAK",
+            "note": "Yemek pişirilen yer",
+            "image": "sets/set4/images/6.png",
+            "audio": "sets/set4/audio/word_6.mp3"
+        },
+        {
+            "id": 7,
+            "arabic": "اَلْمَدْرَسَةُ",
+            "transcription": "al-Madrasah",
+            "reading": "El-medrese",
+            "turkish": "OKUL",
+            "note": "Mektep, okul, eğitim kurumu",
+            "image": "sets/set4/images/7.png",
+            "audio": "sets/set4/audio/word_7.mp3"
+        },
+        {
+            "id": 8,
+            "arabic": "اَلْجَامِعَةُ",
+            "transcription": "al-Jāmi‘ah",
+            "reading": "El-câmia",
+            "turkish": "ÜNİVERSİTE",
+            "note": "Yükseköğretim kurumu, üniversite",
+            "image": "sets/set4/images/8.png",
+            "audio": "sets/set4/audio/word_8.mp3"
+        },
+        {
+            "id": 9,
+            "arabic": "اَلْمُدِيرُ",
+            "transcription": "al-Mudīr",
+            "reading": "El-müdîr",
+            "turkish": "MÜDÜR",
+            "note": "Yönetici, müdür, idareci",
+            "image": "sets/set4/images/9.png",
+            "audio": "sets/set4/audio/word_9.mp3"
+        },
+        {
+            "id": 10,
+            "arabic": "اَلسُّوقُ",
+            "transcription": "as-Sūq",
+            "reading": "Es-sûk",
+            "turkish": "ÇARŞI / PAZAR",
+            "note": "Alışveriş yeri, pazar, çarşı",
+            "image": "sets/set4/images/10.png",
+            "audio": "sets/set4/audio/word_10.mp3"
+        },
+        {
+            "id": 11,
+            "arabic": "اَلشَّارِعُ",
+            "transcription": "ash-Shāri‘",
+            "reading": "Eş-şâri‘",
+            "turkish": "CADDE / SOKAK",
+            "note": "Yol, cadde, ana sokak",
+            "image": "sets/set4/images/11.png",
+            "audio": "sets/set4/audio/word_11.mp3"
+        },
+        {
+            "id": 12,
+            "arabic": "اَلسَّيَّارَةُ",
+            "transcription": "as-Sayyārah",
+            "reading": "Es-seyyâre",
+            "turkish": "ARABA / OTOMOBİL",
+            "note": "Binek araç, araba",
+            "image": "sets/set4/images/12.png",
+            "audio": "sets/set4/audio/word_12.mp3"
+        },
+        {
+            "id": 13,
+            "arabic": "تُرْكِيَا",
+            "transcription": "Turkiyā",
+            "reading": "Türkiyâ",
+            "turkish": "TÜRKİYE",
+            "note": "Ülke ismi: Türkiye",
+            "image": "sets/set4/images/13.png",
+            "audio": "sets/set4/audio/word_13.mp3"
+        },
+        {
+            "id": 14,
+            "arabic": "اَلصِّينُ",
+            "transcription": "aṣ-Ṣīn",
+            "reading": "Es-sîn",
+            "turkish": "ÇİN",
+            "note": "Ülke ismi: Çin",
+            "image": "sets/set4/images/14.png",
+            "audio": "sets/set4/audio/word_14.mp3"
+        },
+        {
+            "id": 15,
+            "arabic": "اَلْيَابَانُ",
+            "transcription": "al-Yābān",
+            "reading": "El-yâbân",
+            "turkish": "JAPONYA",
+            "note": "Ülke ismi: Japonya",
+            "image": "sets/set4/images/15.png",
+            "audio": "sets/set4/audio/word_15.mp3"
+        },
+        {
+            "id": 16,
+            "arabic": "اَلْهِنْدُ",
+            "transcription": "al-Hind",
+            "reading": "El-hind",
+            "turkish": "HİNDİSTAN",
+            "note": "Ülke ismi: Hindistan",
+            "image": "sets/set4/images/16.png",
+            "audio": "sets/set4/audio/word_16.mp3"
+        },
+        {
+            "id": 17,
+            "arabic": "اَلْفِلِبِّينُ",
+            "transcription": "al-Filibbīn",
+            "reading": "El-filibbîn",
+            "turkish": "FİLİPİNLER",
+            "note": "Ülke ismi: Filipinler",
+            "image": "sets/set4/images/17.png",
+            "audio": "sets/set4/audio/word_17.mp3"
+        },
+        {
+            "id": 18,
+            "arabic": "فِي",
+            "transcription": "Fī",
+            "reading": "Fî",
+            "turkish": "İÇİNDE / -DE, -DA",
+            "note": "Harf-i cer: içinde, bulunma hali",
+            "image": "sets/set4/images/18.png",
+            "audio": "sets/set4/audio/word_18.mp3"
+        },
+        {
+            "id": 19,
+            "arabic": "عَلَى",
+            "transcription": "‘Alā",
+            "reading": "Alâ",
+            "turkish": "ÜSTÜNDE / ÜZERİNDE",
+            "note": "Harf-i cer: üzerinde, temas ederek",
+            "image": "sets/set4/images/19.png",
+            "audio": "sets/set4/audio/word_19.mp3"
+        },
+        {
+            "id": 20,
+            "arabic": "مِنْ",
+            "transcription": "Min",
+            "reading": "Min",
+            "turkish": "-DEN / -DAN (ÇIKIŞ, BAŞLANGIÇ)",
+            "note": "Harf-i cer: ayrılma, başlangıç hali",
+            "image": "sets/set4/images/20.png",
+            "audio": "sets/set4/audio/word_20.mp3"
+        },
+        {
+            "id": 21,
+            "arabic": "إِلَى",
+            "transcription": "Ilā",
+            "reading": "İlâ",
+            "turkish": "-E / -A DOĞRU (YÖNELME)",
+            "note": "Harf-i cer: varış, yönelme hali",
+            "image": "sets/set4/images/21.png",
+            "audio": "sets/set4/audio/word_21.mp3"
+        },
+        {
+            "id": 22,
+            "arabic": "أَيْنَ؟",
+            "transcription": "Ayna?",
+            "reading": "Eyne?",
+            "turkish": "NEREDE?",
+            "note": "Yer bildiren soru edatı: nerede?",
+            "image": "sets/set4/images/22.png",
+            "audio": "sets/set4/audio/word_22.mp3"
+        },
+        {
+            "id": 23,
+            "arabic": "مَنْ؟",
+            "transcription": "Man?",
+            "reading": "Men?",
+            "turkish": "KİM?",
+            "note": "Şahıslar için soru edatı: kim?",
+            "image": "sets/set4/images/23.png",
+            "audio": "sets/set4/audio/word_23.mp3"
+        },
+        {
+            "id": 24,
+            "arabic": "مَاذَا؟",
+            "transcription": "Mādhā?",
+            "reading": "Mâzâ?",
+            "turkish": "NE?",
+            "note": "Fiiller / nesneler için soru edatı: ne?",
+            "image": "sets/set4/images/24.png",
+            "audio": "sets/set4/audio/word_24.mp3"
+        },
+        {
+            "id": 25,
+            "arabic": "نَعَمْ",
+            "transcription": "Na‘am",
+            "reading": "Ne‘am",
+            "turkish": "EVET",
+            "note": "Tasdik / onay edatı: evet",
+            "image": "sets/set4/images/25.png",
+            "audio": "sets/set4/audio/word_25.mp3"
+        },
+        {
+            "id": 26,
+            "arabic": "لَا",
+            "transcription": "Lā",
+            "reading": "Lâ",
+            "turkish": "HAYIR",
+            "note": "Nefiy / olumsuzluk edatı: hayır",
+            "image": "sets/set4/images/26.png",
+            "audio": "sets/set4/audio/word_26.mp3"
+        },
+        {
+            "id": 27,
+            "arabic": "أَيْنَ مُحَمَّدٌ؟ - هُوَ فِي الْغُرْفَةِ.",
+            "transcription": "Ayna Muḥammadun? - Huwa fī l-ghurfah.",
+            "reading": "Eyne Muhammedün? - Hüve fi'l-gurfe.",
+            "turkish": "Muhammed nerede? - O odadadır.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/27.png",
+            "audio": "sets/set4/audio/word_27.mp3"
+        },
+        {
+            "id": 28,
+            "arabic": "أَيْنَ يَاسِرٌ؟ - هُوَ فِي الْحَمَّامِ.",
+            "transcription": "Ayna Yāsirun? - Huwa fī l-ḥammām.",
+            "reading": "Eyne Yâsirun? - Hüve fi'l-hammâm.",
+            "turkish": "Yasir nerede? - O banyodadır.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/28.png",
+            "audio": "sets/set4/audio/word_28.mp3"
+        },
+        {
+            "id": 29,
+            "arabic": "أَيْنَ آمِنَةُ؟ - هِيَ فِي الْمَطْبَخِ.",
+            "transcription": "Ayna Āminatu? - Hiya fī l-maṭbakh.",
+            "reading": "Eyne Âminetü? - Hiye fi'l-matbah.",
+            "turkish": "Amine nerede? - O mutfaktadır.",
+            "note": "Soru-cevap kalıbı (müennes)",
+            "image": "sets/set4/images/29.png",
+            "audio": "sets/set4/audio/word_29.mp3"
+        },
+        {
+            "id": 30,
+            "arabic": "أَيْنَ الْكِتَابُ؟ - هُوَ عَلَى الْمَكْتَبِ.",
+            "transcription": "Ayna l-kitābu? - Huwa ‘alā l-maktab.",
+            "reading": "Eyne'l-kitâbu? - Hüve ale'l-mekteb.",
+            "turkish": "Kitap nerede? - O masanın üzerindedir.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/30.png",
+            "audio": "sets/set4/audio/word_30.mp3"
+        },
+        {
+            "id": 31,
+            "arabic": "أَيْنَ السَّاعَةُ؟ - هِيَ عَلَى الْمَكْتَبِ.",
+            "transcription": "Ayna s-sā‘atu? - Hiya ‘alā l-maktab.",
+            "reading": "Eyne's-sâatü? - Hiye ale'l-mekteb.",
+            "turkish": "Saat nerede? - O masanın üzerindedir.",
+            "note": "Soru-cevap kalıbı (müennes)",
+            "image": "sets/set4/images/31.png",
+            "audio": "sets/set4/audio/word_31.mp3"
+        },
+        {
+            "id": 32,
+            "arabic": "مَنْ فِي الْغُرْفَةِ؟ - مُحَمَّدٌ فِي الْغُرْفَةِ.",
+            "transcription": "Man fī l-ghurfah? - Muḥammadun fī l-ghurfah.",
+            "reading": "Men fi'l-gurfe? - Muhammedün fi'l-gurfe.",
+            "turkish": "Odada kim var? - Odada Muhammed var.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/32.png",
+            "audio": "sets/set4/audio/word_32.mp3"
+        },
+        {
+            "id": 33,
+            "arabic": "مَنْ فِي الْحَمَّامِ؟ - يَاسِرٌ فِي الْحَمَّامِ.",
+            "transcription": "Man fī l-ḥammām? - Yāsirun fī l-ḥammām.",
+            "reading": "Men fi'l-hammâm? - Yâsirun fi'l-hammâm.",
+            "turkish": "Banyoda kim var? - Banyoda Yasir var.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/33.png",
+            "audio": "sets/set4/audio/word_33.mp3"
+        },
+        {
+            "id": 34,
+            "arabic": "مَنْ فِي الْمَطْبَخِ؟ - آمِنَةُ فِي الْمَطْبَخِ.",
+            "transcription": "Man fī l-maṭbakh? - Āminatu fī l-maṭbakh.",
+            "reading": "Men fi'l-matbah? - Âminetü fi'l-matbah.",
+            "turkish": "Mutfakta kim var? - Mutfakta Amine var.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/34.png",
+            "audio": "sets/set4/audio/word_34.mp3"
+        },
+        {
+            "id": 35,
+            "arabic": "أَمُحَمَّدٌ فِي الْغُرْفَةِ؟ - نَعَمْ، هُوَ فِي الْغُرْفَةِ.",
+            "transcription": "A-Muḥammadun fī l-ghurfah? - Na‘am, huwa fī l-ghurfah.",
+            "reading": "E-Muhammedün fi'l-gurfe? - Ne‘am, hüve fi'l-gurfe.",
+            "turkish": "Muhammed odada mı? - Evet, o odada.",
+            "note": "İstifham ve teyit kalıbı",
+            "image": "sets/set4/images/35.png",
+            "audio": "sets/set4/audio/word_35.mp3"
+        },
+        {
+            "id": 36,
+            "arabic": "أَيَاسِرٌ فِي الْغُرْفَةِ؟ - لَا، مُحَمَّدٌ فِي الْغُرْفَةِ.",
+            "transcription": "A-Yāsirun fī l-ghurfah? - Lā, Muḥammadun fī l-ghurfah.",
+            "reading": "E-Yâsirun fi'l-gurfe? - Lâ, Muhammedün fi'l-gurfe.",
+            "turkish": "Yasir odada mı? - Hayır, Muhammed odada.",
+            "note": "İstifham ve tashih kalıbı",
+            "image": "sets/set4/images/36.png",
+            "audio": "sets/set4/audio/word_36.mp3"
+        },
+        {
+            "id": 37,
+            "arabic": "أَمُحَمَّدٌ فِي الْحَمَّامِ؟ - لَا، يَاسِرٌ فِي الْحَمَّامِ.",
+            "transcription": "A-Muḥammadun fī l-ḥammām? - Lā, Yāsirun fī l-ḥammām.",
+            "reading": "E-Muhammedün fi'l-hammâm? - Lâ, Yâsirun fi'l-hammâm.",
+            "turkish": "Muhammed banyoda mı? - Hayır, Yasir banyoda.",
+            "note": "İstifham ve tashih kalıbı",
+            "image": "sets/set4/images/37.png",
+            "audio": "sets/set4/audio/word_37.mp3"
+        },
+        {
+            "id": 38,
+            "arabic": "أَآمِنَةُ فِي الْمَطْبَخِ؟ - نَعَمْ.",
+            "transcription": "A-Āminatu fī l-maṭbakh? - Na‘am.",
+            "reading": "E-Âminetü fi'l-matbah? - Ne‘am.",
+            "turkish": "Amine mutfakta mı? - Evet.",
+            "note": "İstifham ve kısa cevap kalıbı",
+            "image": "sets/set4/images/38.png",
+            "audio": "sets/set4/audio/word_38.mp3"
+        },
+        {
+            "id": 39,
+            "arabic": "مَاذَا عَلَى الْمَكْتَبِ؟ - اَلْكِتَابُ عَلَى الْمَكْتَبِ.",
+            "transcription": "Mādhā ‘alā l-maktab? - al-Kitābu ‘alā l-maktab.",
+            "reading": "Mâzâ ale'l-mekteb? - El-kitâbu ale'l-mekteb.",
+            "turkish": "Masanın üzerinde ne var? - Kitap masanın üzerindedir.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/39.png",
+            "audio": "sets/set4/audio/word_39.mp3"
+        },
+        {
+            "id": 40,
+            "arabic": "مَاذَا عَلَى الْمَكْتَبِ؟ - اَلسَّاعَةُ عَلَى الْمَكْتَبِ.",
+            "transcription": "Mādhā ‘alā l-maktab? - as-Sā‘atu ‘alā l-maktab.",
+            "reading": "Mâzâ ale'l-mekteb? - Es-sâatü ale'l-mekteb.",
+            "turkish": "Masanın üzerinde ne var? - Saat masanın üzerindedir.",
+            "note": "Soru-cevap kalıbı",
+            "image": "sets/set4/images/40.png",
+            "audio": "sets/set4/audio/word_40.mp3"
+        },
+        {
+            "id": 41,
+            "arabic": "مِنْ أَيْنَ أَنْتَ؟ - أَنَا مِنَ الْيَابَانِ.",
+            "transcription": "Min ayna anta? - Anā mina l-Yābān.",
+            "reading": "Min eyne ente? - Ene mine'l-Yâbân.",
+            "turkish": "Sen neredensin/nerelisin? - Ben Japonya'danım.",
+            "note": "Nerelisin? kalıbı",
+            "image": "sets/set4/images/41.png",
+            "audio": "sets/set4/audio/word_41.mp3"
+        },
+        {
+            "id": 42,
+            "arabic": "مِنْ أَيْنَ عَمَّارٌ؟ - هُوَ مِنَ الصِّينِ.",
+            "transcription": "Min ayna ‘Ammār? - Huwa mina ṣ-Ṣīn.",
+            "reading": "Min eyne Ammâr? - Hüve mine's-Sîn.",
+            "turkish": "Ammar nereli? - O Çinlidir.",
+            "note": "Ülke / köken kalıbı",
+            "image": "sets/set4/images/42.png",
+            "audio": "sets/set4/audio/word_42.mp3"
+        },
+        {
+            "id": 43,
+            "arabic": "مِنْ أَيْنَ حَامِدٌ؟ - هُوَ مِنَ الْهِنْدِ.",
+            "transcription": "Min ayna Ḥāmid? - Huwa mina l-Hind.",
+            "reading": "Min eyne Hâmid? - Hüve mine'l-Hind.",
+            "turkish": "Hâmid nereli? - O Hindistanlıdır.",
+            "note": "Ülke / köken kalıbı",
+            "image": "sets/set4/images/43.png",
+            "audio": "sets/set4/audio/word_43.mp3"
+        },
+        {
+            "id": 44,
+            "arabic": "أَيْنَ ذَهَبَ عَبَّاسٌ؟ - ذَهَبَ إِلَى الْمُدِيرِ.",
+            "transcription": "Ayna dhahaba ‘Abbās? - Dhahaba ilā l-mudīr.",
+            "reading": "Eyne zehebe Abbâs? - Zehebe ile'l-müdîr.",
+            "turkish": "Abbas nereye gitti? - Müdüre gitti.",
+            "note": "Geçmiş zaman ve yönelme kalıbı",
+            "image": "sets/set4/images/44.png",
+            "audio": "sets/set4/audio/word_44.mp3"
+        },
+        {
+            "id": 45,
+            "arabic": "ذَهَبَ إِلَى السُّوقِ.",
+            "transcription": "Dhahaba ilā s-sūq.",
+            "reading": "Zehebe ile's-sûk.",
+            "turkish": "Çarşıya gitti.",
+            "note": "Fiil cümlesi (gitti)",
+            "image": "sets/set4/images/45.png",
+            "audio": "sets/set4/audio/word_45.mp3"
+        },
+        {
+            "id": 46,
+            "arabic": "خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ.",
+            "transcription": "Kharaja l-mudarrisu mina l-faṣl.",
+            "reading": "Harace'l-müderrisü mine'l-fasl.",
+            "turkish": "Öğretmen sınıftan çıktı.",
+            "note": "Fiil cümlesi (çıktı)",
+            "image": "sets/set4/images/46.png",
+            "audio": "sets/set4/audio/word_46.mp3"
+        },
+        {
+            "id": 47,
+            "arabic": "خَرَجَ حَامِدٌ مِنَ الْغُرْفَةِ.",
+            "transcription": "Kharaja Ḥāmidun mina l-ghurfah.",
+            "reading": "Harace Hâmidün mine'l-gurfe.",
+            "turkish": "Hâmid odadan çıktı.",
+            "note": "Fiil cümlesi (çıktı)",
+            "image": "sets/set4/images/47.png",
+            "audio": "sets/set4/audio/word_47.mp3"
+        }
+    ]
+}
 };
 
 if (typeof window !== 'undefined') {
