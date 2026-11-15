@@ -1060,17 +1060,7 @@ function updateSetDropdownUi() {
 }
 
 function updateNavStatBadge() {
-  const statText = document.getElementById('topStatText');
-  if (!statText) return;
-
-  if (app.activeTab === 'home') {
-    statText.textContent = `📁 Setler Kataloğu`;
-  } else if (app.activeTab === 'learn') {
-    const cur = app.words.length > 0 ? (app.currentIndex + 1) : 0;
-    statText.textContent = `📌 ${cur} / ${app.words.length}`;
-  } else if (app.activeTab === 'test') {
-    statText.textContent = `⚡ 7 Sn Hızlı Test`;
-  }
+  // Sağ üst konum rozeti kullanıcının isteğiyle kaldırıldı
 }
 
 function closeAllDropdowns() {
