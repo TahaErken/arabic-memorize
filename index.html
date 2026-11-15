@@ -93,6 +93,22 @@
                 <span class="popover-item-desc">68 İfade • Eril/Dişil & Zıt Anlamlar</span>
               </div>
             </button>
+            <!-- SET-6 -->
+            <button class="dropdown-popover-item" data-set-id="set6" type="button">
+              <span class="set-badge-icon sm">6</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">SET-6: İşaret İsimleri & Kelimeler</span>
+                <span class="popover-item-desc">52 İfade • Tilke & Zâlike, Meslekler</span>
+              </div>
+            </button>
+            <!-- SET-7 -->
+            <button class="dropdown-popover-item" data-set-id="set7" type="button">
+              <span class="set-badge-icon sm">7</span>
+              <div class="popover-item-content">
+                <span class="popover-item-title">SET-7: Eşyalar & Mekan Edatları</span>
+                <span class="popover-item-desc">59 İfade • Bıçak, Ülkeler, İyelik Cümleleri</span>
+              </div>
+            </button>
           </div>
         </div>
 
@@ -116,6 +132,15 @@
     <section id="homeView" class="view-panel">
       <!-- 1. SETLER LİSTESİ BÖLÜMÜ -->
       <div id="homeSetsListSection" class="home-section">
+        <!-- ŞIK ANA SAYFA HERO BANNERI -->
+        <div class="home-hero-banner">
+          <div class="hero-content">
+            <span class="hero-badge">✨ Arapça Görsel Kelime Kartları</span>
+            <h1 class="hero-title">Arapça Kelime Dünyası</h1>
+            <p class="hero-subtitle">Görsel hafıza, doğal telaffuz sesleri ve 7 saniye pratik testiyle Medine Arapçası ünitelerini kolayca keşfedin.</p>
+          </div>
+        </div>
+
         <div class="home-sets-grid" id="homeSetsGrid">
           <!-- JS dinamik olarak tüm setleri flaş kart şeklinde oluşturacak -->
         </div>
@@ -188,8 +213,13 @@
 
         <div id="learnCardBody">
           <!-- 1. GÖRSEL (Önce Resmi Gösterir) -->
+          <!-- 1. EN ÜSTTE GÖRSEL + ÜZERİNDE BÜYÜK FAVORİ BUTONU -->
           <div class="image-viewport">
             <img id="learnImage" src="" alt="Kelime Görseli">
+            <button class="learn-floating-fav-btn" id="learnFavBtn" type="button" title="Favorilere Ekle / Çıkar">
+              <span class="fav-star-icon">⭐</span>
+              <span class="fav-btn-text">Favori</span>
+            </button>
           </div>
 
           <!-- 2. ALTINDA ARAPÇASI & OKUNUŞU -->
@@ -199,7 +229,6 @@
               <div class="arabic-phonetic">
                 <span id="learnReading">...</span>
                 <button class="speak-btn" id="speakWordBtn" title="Arapça Telaffuzu Dinle">🔊</button>
-                <button class="fav-toggle-btn" id="learnFavBtn" type="button" title="Favorilere Ekle / Çıkar">⭐</button>
               </div>
             </div>
 

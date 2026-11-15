@@ -392,7 +392,10 @@ const FavoritesManager = {
         const sKey = getWordSetKey(cur);
         const isFav = this.isFavorite(sKey, cur.id);
         learnFavBtn.classList.toggle('active', isFav);
-        learnFavBtn.innerHTML = isFav ? '⭐' : '☆';
+        const iconSpan = learnFavBtn.querySelector('.fav-star-icon');
+        const textSpan = learnFavBtn.querySelector('.fav-btn-text');
+        if (iconSpan) iconSpan.textContent = isFav ? '⭐' : '☆';
+        if (textSpan) textSpan.textContent = isFav ? 'Favorilerde' : 'Favorilere Ekle';
         learnFavBtn.title = isFav ? 'Favorilerden Çıkar' : 'Favorilere Ekle';
       }
     }
@@ -1114,7 +1117,8 @@ function renderHomeSetsList() {
   if (!container) return;
   container.innerHTML = '';
 
-  const setKeys = ['favorites', 'set1', 'set2', 'set3'];
+  // Tüm mevcut setleri ana sayfada göster (favorites ve set0'dan set7'ye kadar)
+  const setKeys = ['favorites', 'set0', 'set1', 'set2', 'set3', 'set4', 'set5', 'set6', 'set7'];
 
   setKeys.forEach(key => {
     const set = SETS_DATA[key];
@@ -1131,10 +1135,12 @@ function renderHomeSetsList() {
       ? `${set.words.length} Favori Kelime` 
       : (isDisabled ? 'Yakında' : `${set.words.length} Kelime`);
 
+    const badgeLabel = isFav ? '⭐' : (key === 'set0' ? '0' : key.replace('set', ''));
+
     card.innerHTML = `
       <div class="set-card-top">
         <div class="set-card-header">
-          <span class="set-badge-icon ${isFav ? 'fav' : (isDisabled ? 'muted' : '')}">${isFav ? '⭐' : key.replace('set', '')}</span>
+          <span class="set-badge-icon ${isFav ? 'fav' : (isDisabled ? 'muted' : '')}">${badgeLabel}</span>
           <h3 class="set-card-title">${set.title}</h3>
         </div>
         <span class="set-card-count-badge">${countText}</span>
@@ -1146,7 +1152,10 @@ function renderHomeSetsList() {
             <span>👁️</span> <span>Görseller & Anlamlar</span>
           </button>
           <button class="card-action-btn learn-now" type="button">
-            <span>🎴</span> <span>Ezber Yap</span>
+            <span>🎴</span> <span>Ezber</span>
+          </button>
+          <button class="card-action-btn test-now" type="button">
+            <span>⚡</span> <span>Test</span>
           </button>
         ` : `
           <button class="card-action-btn view-all" disabled type="button">
@@ -1161,6 +1170,11 @@ function renderHomeSetsList() {
         if (e.target.closest('.learn-now')) {
           switchSet(key);
           switchTab('learn');
+          return;
+        }
+        if (e.target.closest('.test-now')) {
+          switchSet(key);
+          switchTab('test');
           return;
         }
         renderHomeSetDetail(key);

@@ -1,0 +1,299 @@
+{
+  "gorsel_setleri": [
+    {
+      "id": "1",
+      "ifade": "السِّكِّين (es-sikkîn) — Bıçak",
+      "prompt": "A cute 3D cartoon kitchen knife with a wooden handle and shiny steel blade, centered, vibrant colors, bright studio lighting."
+    },
+    {
+      "id": "2",
+      "ifade": "الْمِلْعَقَة (el-milʿaka) — Kaşık",
+      "prompt": "A cute 3D cartoon stainless steel spoon, clean and shiny, vibrant colors, bright lighting, soft rounded forms."
+    },
+    {
+      "id": "3",
+      "ifade": "السَّاعَة (es-sâʿa) — Saat",
+      "prompt": "A cute 3D cartoon wall clock with clear numbers, bright lighting, friendly aesthetic."
+    },
+    {
+      "id": "4",
+      "ifade": "الدَّرَّاجَة (ed-derrâce) — Bisiklet",
+      "prompt": "A cute 3D cartoon bicycle, vibrant colors, clean minimal background, bright daylight, smooth rounded shapes."
+    },
+    {
+      "id": "5",
+      "ifade": "الْمِنْدِيل (el-mindîl) — Mendil",
+      "prompt": "A cute 3D cartoon clean white fabric handkerchief neatly folded, bright lighting, soft textures."
+    },
+    {
+      "id": "6",
+      "ifade": "الْبَاب (el-bâb) — Kapı",
+      "prompt": "A cute 3D cartoon wooden door with a brass handle, vibrant colors, clean background, bright lighting."
+    },
+    {
+      "id": "7",
+      "ifade": "الْمَطْبَخ (el-matbah) — Mutfak",
+      "prompt": "A cute 3D cartoon modern kitchen interior view, clean counters and cabinets, vibrant lively colors."
+    },
+    {
+      "id": "8",
+      "ifade": "الْفَصْل (el-fasl) — Sınıf",
+      "prompt": "A cute 3D cartoon classroom interior with desks and a blackboard, bright and cheerful lighting."
+    },
+    {
+      "id": "9",
+      "ifade": "الْحَدِيقَة (el-hadîka) — Bahçe",
+      "prompt": "A cute 3D cartoon green garden with a small path and flowers, vibrant colors, bright sunny daylight."
+    },
+    {
+      "id": "10",
+      "ifade": "الشَّارِع (eş-şâriʿ) — Cadde / Sokak",
+      "prompt": "A cute 3D cartoon peaceful street with friendly buildings and trees, bright sunny lighting."
+    },
+    {
+      "id": "11",
+      "ifade": "أَمْرِيكَا (Emrîkâ) — Amerika",
+      "prompt": "A cute 3D cartoon globe focusing on the American continent with iconic landmarks like the Statue of Liberty silhouette, vibrant colors."
+    },
+    {
+      "id": "12",
+      "ifade": "أَلْمَانْيَا (Elmânyâ) — Almanya",
+      "prompt": "A cute 3D cartoon miniature German landscape with traditional half-timbered houses and a castle, vibrant colors, bright lighting."
+    },
+    {
+      "id": "13",
+      "ifade": "إِنْكَلْتِرَا (İnkelterâ) — İngiltere",
+      "prompt": "A cute 3D cartoon London style scene featuring a red telephone box and Big Ben silhouette, cheerful bright lighting."
+    },
+    {
+      "id": "14",
+      "ifade": "سُوِيسْرَا (Suvîsrâ) — İsviçre",
+      "prompt": "A cute 3D cartoon snowy alpine mountain peaks with a cozy wooden chalet and green hills, bright sunny lighting."
+    },
+    {
+      "id": "15",
+      "ifade": "الْيَابَان (el-Yâbân) — Japonya",
+      "prompt": "A cute 3D cartoon Japanese scene with blooming cherry blossom trees (sakura) and a traditional shrine gate, vibrant colors."
+    },
+    {
+      "id": "16",
+      "ifade": "الْعِرَاق (el-ʿIrâk) — Irak",
+      "prompt": "A cute 3D cartoon Middle Eastern historical architecture scene with date palms and traditional arches, warm sunny daylight."
+    },
+    {
+      "id": "17",
+      "ifade": "أَمَامَ (emâme) — Önünde",
+      "prompt": "A cute 3D cartoon small car parked right in front of a cozy house entrance, bright daylight, clear spatial relation."
+    },
+    {
+      "id": "18",
+      "ifade": "خَلْفَ (halfe) — Arkasında",
+      "prompt": "A cute 3D cartoon bicycle standing safely behind a school building wall, bright cheerful lighting."
+    },
+    {
+      "id": "19",
+      "ifade": "عَلَى (ʿalâ) — Üzerinde / Üstünde",
+      "prompt": "A cute 3D cartoon book resting neatly on top of a clean wooden desk, bright studio lighting."
+    },
+    {
+      "id": "20",
+      "ifade": "تَحْتَ (tahte) — Altında",
+      "prompt": "A cute 3D cartoon ball resting safely underneath a wooden chair, soft shadows, vibrant colors."
+    },
+    {
+      "id": "21",
+      "ifade": "الرَّجُل (er-racul) — Adam",
+      "prompt": "A cute 3D cartoon friendly adult man smiling, wearing casual clothes, vibrant colors, soft lighting."
+    },
+    {
+      "id": "22",
+      "ifade": "الْوَلَد (el-veled) — Çocuk / Erkek çocuk",
+      "prompt": "A cute 3D cartoon young boy smiling happily, bright colors, friendly and cheerful style."
+    },
+    {
+      "id": "23",
+      "ifade": "التَّاجِر (et-tâcir) — Tüccar",
+      "prompt": "A cute 3D cartoon merchant man in traditional friendly attire, vibrant colors, clean style."
+    },
+    {
+      "id": "24",
+      "ifade": "الطَّبِيب (et-tabîb) — Doktor",
+      "prompt": "A cute 3D cartoon friendly doctor wearing a white coat and stethoscope, bright lighting."
+    },
+    {
+      "id": "25",
+      "ifade": "الْمُدَرِّس (el-muderris) — Öğretmen",
+      "prompt": "A cute 3D cartoon friendly school teacher holding a book, bright classroom background."
+    },
+    {
+      "id": "26",
+      "ifade": "الْفَلَّاح (el-fellâh) — Çiftçi",
+      "prompt": "A cute 3D cartoon friendly farmer standing in a green field, vibrant farm colors."
+    },
+    {
+      "id": "27",
+      "ifade": "الْمُدِير (el-mudîr) — Müdür",
+      "prompt": "A cute 3D cartoon professional director man in a neat suit, smiling, office background."
+    },
+    {
+      "id": "28",
+      "ifade": "الْمُؤَذِّن (el-muezzin) — Müezzin",
+      "prompt": "A cute 3D cartoon friendly muezzin character standing near a mosque minaret style background."
+    },
+    {
+      "id": "29",
+      "ifade": "الْمُهَنْدِس (el-muhendis) — Mühendis",
+      "prompt": "A cute 3D cartoon engineer wearing a safety helmet and blueprints, bright modern lighting."
+    },
+    {
+      "id": "30",
+      "ifade": "الطَّالِب (et-tâlib) — Öğrenci",
+      "prompt": "A cute 3D cartoon student carrying a backpack, smiling happily, bright cheerful colors."
+    },
+    {
+      "id": "31",
+      "ifade": "بِنْتُ الْفَلَّاحِ (bintu'l-fellâh) — Çiftçinin kızı",
+      "prompt": "A cute 3D cartoon young village girl smiling happily on a farm, bright cheerful colors."
+    },
+    {
+      "id": "32",
+      "ifade": "ابْنُ الْمُدِيرِ (ibnu'l-mudîr) — Müdürün oğlu",
+      "prompt": "A cute 3D cartoon smart schoolboy holding a small notebook, bright office background."
+    },
+    {
+      "id": "33",
+      "ifade": "رَئِيس (raîs) — Başkan / Reis",
+      "prompt": "A cute 3D cartoon leader character in a formal suit, confident and friendly expression."
+    },
+    {
+      "id": "34",
+      "ifade": "جَدِيد / قَدِيم (cedîd / kadîm) — Yeni / Eski Karşılaştırması",
+      "prompt": "A cute 3D cartoon side-by-side comparison of a shiny new modern house and an old classic historic house, vibrant lighting."
+    },
+    {
+      "id": "35",
+      "ifade": "مَفْتُوح / مُغْلَق (meftûh / muglak) — Açık / Kapalı Kapı",
+      "prompt": "A cute 3D cartoon wooden door standing wide open on one side and a locked closed door on the other, bright colors."
+    },
+    {
+      "id": "36",
+      "ifade": "نَظِيف (nazîf) — Temiz",
+      "prompt": "A cute 3D cartoon sparkling clean item gleaming with bright light highlights, vibrant colors."
+    },
+    {
+      "id": "37",
+      "ifade": "كَبِير (kebîr) — Büyük",
+      "prompt": "A cute 3D cartoon oversized friendly giant box or building next to a smaller one, emphasis on scale, bright lighting."
+    },
+    {
+      "id": "38",
+      "ifade": "جَمِيل (cemîl) — Güzel",
+      "prompt": "A cute 3D cartoon blooming flower garden with butterflies and bright rainbow colors, highly aesthetic."
+    },
+    {
+      "id": "39",
+      "ifade": "سَرِيع (serîʿ) — Hızlı",
+      "prompt": "A cute 3D cartoon race car zooming fast with motion lines, bright vibrant colors and dynamic lighting."
+    },
+    {
+      "id": "40",
+      "ifade": "جَلَسَ أَمَامَ الْمُدَرِّسِ (Celese emâme'l-muderrisi) — Öğretmenin önüne oturdu",
+      "prompt": "A cute 3D cartoon student boy sitting on a chair right in front of a smiling teacher at a desk, bright classroom."
+    },
+    {
+      "id": "41",
+      "ifade": "هٰذَا كِتَابٌ (Hâzâ kitâbun) — Bu bir kitaptır",
+      "prompt": "A cute 3D cartoon single book resting on a plain clean table with a soft spotlight, vibrant colors."
+    },
+    {
+      "id": "42",
+      "ifade": "هٰذِهِ سَيَّارَةٌ (Hâzihi seyyâratun) — Bu bir arabadır",
+      "prompt": "A cute 3D cartoon compact toy-like car parked on a clean surface, vibrant colors, bright studio lighting."
+    },
+    {
+      "id": "43",
+      "ifade": "هٰذَا الْكِتَابُ جَدِيدٌ (Hâze'l-kitâbu cedîdun) — Bu kitap yenidir",
+      "prompt": "A cute 3D cartoon brand new colorful book with a shiny glossy cover, bright lighting."
+    },
+    {
+      "id": "44",
+      "ifade": "تِلْكَ السَّيَّارَةُ لِلطَّبِيبِ (Tilke's-seyyâratu lit-tabîbi) — O araba doktora aittir",
+      "prompt": "A cute 3D cartoon elegant car parked outside a doctor's clinic with a medical cross symbol nearby, bright daylight."
+    },
+    {
+      "id": "45",
+      "ifade": "هٰذَا الْمِفْتَاحُ لِحَامِدٍ (Hâze'l-miftâhu li-Hâmidin) — Bu anahtar Hamid'indir",
+      "prompt": "A cute 3D cartoon brass key resting on a wooden table with a name tag, bright studio lighting."
+    },
+    {
+      "id": "46",
+      "ifade": "الدَّرَّاجَةُ فِي الْحَدِيقَةِ (Ed-derrâcetu fi'l-hadîkati) — Bisiklet bahçededir",
+      "prompt": "A cute 3D cartoon bicycle parked neatly inside a lush green garden filled with flowers, sunny daylight."
+    },
+    {
+      "id": "47",
+      "ifade": "السَّيَّارَةُ أَمَامَ الْبَيْتِ (Es-seyyâratu emâme'l-beyti) — Araba evin önündedir",
+      "prompt": "A cute 3D cartoon car parked directly in front of a cozy suburban house, bright cheerful morning light."
+    },
+    {
+      "id": "48",
+      "ifade": "الْكُرْسِيُّ خَلْفَ الْمَكْتَبِ (El-kursiyyu halfe'l-mektebi) — Sandalye masanın arkasındadır",
+      "prompt": "A cute 3D cartoon wooden chair neatly tucked behind a study desk, bright clean room lighting."
+    },
+    {
+      "id": "49",
+      "ifade": "هٰذِهِ الْبَقَرَةُ لِلْفَلَّاحِ (Hâzihi'l-bekaratu lil-fellâhi) — Bu inek çiftçinindir",
+      "prompt": "A cute 3D cartoon friendly dairy cow standing next to a smiling farmer in a green field, bright farm scenery."
+    },
+    {
+      "id": "50",
+      "ifade": "هٰذَا الدِّيكُ لِبِنْتِ الْفَلَّاحِ (Hâze'd-dîku li-binti'l-fellâhi) — Bu horoz çiftçinin kızınındır",
+      "prompt": "A cute 3D cartoon colorful rooster standing next to a smiling young village girl, bright farm background."
+    },
+    {
+      "id": "51",
+      "ifade": "هٰذَا الْقَمِيصُ لِلطَّبِيبِ (Hâze'l-kamîsu lit-tabîbi) — Bu gömlek doktorundur",
+      "prompt": "A cute 3D cartoon neat white doctor's shirt folded on a clean surface, bright studio lighting."
+    },
+    {
+      "id": "52",
+      "ifade": "هٰذِهِ السَّاعَةُ لِابْنِ الْمُدِيرِ (Hâzihi's-sâʿatu libni'l-mudîri) — Bu saat müdürün oğlunundur",
+      "prompt": "A cute 3D cartoon stylish wrist watch resting on an office desk next to school books, bright lighting."
+    },
+    {
+      "id": "53",
+      "ifade": "الْمِنْدِيلُ فِي حَقِيبَةِ الطَّالِبِ (El-mindîlu fî hakîbeti't-tâlibi) — Mendil öğrencinin çantasındadır",
+      "prompt": "A cute 3D cartoon open school backpack revealing a clean white handkerchief inside, bright classroom lighting."
+    },
+    {
+      "id": "54",
+      "ifade": "اسْمُ التَّاجِرِ مَحْمُودٌ وَاسْمُ الطَّبِيبِ سَعِيدٌ (İsmu't-tâciri Mahmûdun vasmu't-tabîbi Saʿîdun) — Tüccarın adı Mahmut, doktorun adı ise Said'dir",
+      "prompt": "A cute 3D cartoon split scene showing a smiling merchant on one side and a friendly doctor with a stethoscope on the other."
+    },
+    {
+      "id": "55",
+      "ifade": "بَيْتُ التَّاجِرِ أَمَامَ الْمَسْجِدِ وَبَيْتُ الطَّبِيبِ خَلْفَ الْمَدْرَسَةِ (Beytu't-tâciri emâme'l-mescidi ve beytu't-tabîbi halfe'l-medreseti) — Tüccarın evi mescidin önünde, doktorun evi ise okulun arkasındadır",
+      "prompt": "A cute 3D cartoon miniature city layout showing a house in front of a mosque and another house behind a school building, bright daylight."
+    },
+    {
+      "id": "56",
+      "ifade": "هٰذِهِ السَّيَّارَةُ مِنَ الْيَابَانِ وَتِلْكَ مِنْ أَمْرِيكَا (Hâzihi's-seyyâratu mine'l-Yâbâni ve tilke min Emrîkâ) — Bu araba Japonya'dan, şu ise Amerika'dandır",
+      "prompt": "A cute 3D cartoon comparison of two different colorful cars parked side by side with small Japanese and American flags, bright sunny lighting."
+    },
+    {
+      "id": "57",
+      "ifade": "هٰذَا الْبَابُ مَفْتُوحٌ وَذٰلِكَ الْبَابُ مُغْلَقٌ (Hâze'l-bâbu meftûhun ve zâlike'l-bâbu muglakun) — Bu kapı açıktır, şu kapı ise kapalıdır",
+      "prompt": "A cute 3D cartoon scene showing two wooden doors side by side: one wide open letting light through, and the other firmly closed with a padlock."
+    },
+    {
+      "id": "58",
+      "ifade": "لَا، هُوَ قَدِيمٌ جِدًّا (Lâ, huve kadîmun cidden) — Hayır, o çok eskidir",
+      "prompt": "A cute 3D cartoon very old historic weathered stone building with cracks and vintage textures, bright sunny day lighting."
+    },
+    {
+      "id": "59",
+      "ifade": "هٰذَا السِّكِّينُ مِنْ أَلْمَانْيَا وَتِلْكَ الْمِلْعَقَةُ مِنْ إِنْكَلْتِرَا (Hâze's-sikkînu min Elmânyâ ve tilke'l-milʿakatu min İnkelterâ) — Bu bıçak Almanya'dan, şu kaşık ise İngiltere'dendir",
+      "prompt": "A cute 3D cartoon shiny kitchen knife and a matching clean spoon displayed neatly side by side on a clean marble counter, studio lighting."
+    }
+  ]
+}

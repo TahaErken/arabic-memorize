@@ -2004,6 +2004,1136 @@ const SETS_DATA = {
             "audio": "sets/set5/audio/word_68.mp3"
         }
     ]
+},
+  "set6": {
+        "id": "set6",
+        "title": "SET-6: İşaret İsimleri (Tilke & Zâlike) ve Yeni Kelimeler",
+        "description": "Medine Arapçası 6. Ders: Uzak işaret isimleri (تِلْكَ / ذٰلِكَ), meslekler ve soru kalıpları",
+        "badge": "SET-6",
+        "color": "#0ea5e9",
+        "available": true,
+        "words": [
+                {
+                        "id": 1,
+                        "arabic": "الْبَيْضَة / بَيْضَة",
+                        "transcription": "el-beydatu / beydatun",
+                        "reading": "el-beydatu / beydatun",
+                        "turkish": "YUMURTA",
+                        "note": "dişil / müennes",
+                        "image": "sets/set6/images/1.png",
+                        "audio": "sets/set6/audio/word_1.mp3"
+                },
+                {
+                        "id": 2,
+                        "arabic": "الْحَدِيقَة / حَدِيقَة",
+                        "transcription": "el-hadîkatu / hadîkatun",
+                        "reading": "el-hadîkatu / hadîkatun",
+                        "turkish": "BAHÇE",
+                        "note": "dişil / müennes",
+                        "image": "sets/set6/images/2.png",
+                        "audio": "sets/set6/audio/word_2.mp3"
+                },
+                {
+                        "id": 3,
+                        "arabic": "الدَّجَاجَة / دَجَاجَة",
+                        "transcription": "ed-decâcetu / decâcetun",
+                        "reading": "ed-decâcetu / decâcetun",
+                        "turkish": "TAVUK",
+                        "note": "dişil / müennes",
+                        "image": "sets/set6/images/3.png",
+                        "audio": "sets/set6/audio/word_3.mp3"
+                },
+                {
+                        "id": 4,
+                        "arabic": "الْمُؤَذِّن / مُؤَذِّن",
+                        "transcription": "el-muezzinu / muezzinun",
+                        "reading": "el-muezzinu / muezzinun",
+                        "turkish": "MÜEZZIN",
+                        "note": "ezan okuyan, kamet getiren kişi",
+                        "image": "sets/set6/images/4.png",
+                        "audio": "sets/set6/audio/word_4.mp3"
+                },
+                {
+                        "id": 5,
+                        "arabic": "النَّاقَة / نَاقَة",
+                        "transcription": "en-nâkatu / nâkatun",
+                        "reading": "en-nâkatu / nâkatun",
+                        "turkish": "DIŞI DEVE",
+                        "note": "Dişi deve",
+                        "image": "sets/set6/images/5.png",
+                        "audio": "sets/set6/audio/word_5.mp3"
+                },
+                {
+                        "id": 6,
+                        "arabic": "الْجَمَل / جَمَل",
+                        "transcription": "el-cemelu / cemelun",
+                        "reading": "el-cemelu / cemelun",
+                        "turkish": "Erkek deve / Genel olarak deve",
+                        "note": "Erkek deve / Genel olarak deve",
+                        "image": "sets/set6/images/6.png",
+                        "audio": "sets/set6/audio/word_6.mp3"
+                },
+                {
+                        "id": 7,
+                        "arabic": "الْبَطَّة / بَطَّة",
+                        "transcription": "el-battatu / battatun",
+                        "reading": "el-battatu / battatun",
+                        "turkish": "ÖRDEK",
+                        "note": "dişil / müennes",
+                        "image": "sets/set6/images/7.png",
+                        "audio": "sets/set6/audio/word_7.mp3"
+                },
+                {
+                        "id": 8,
+                        "arabic": "الْمُمَرِّضَة / مُمَرِّضَة",
+                        "transcription": "el-mumarridatu / mumarridatun",
+                        "reading": "el-mumarridatu / mumarridatun",
+                        "turkish": "HEMŞIRE / KADIN HASTA BAKICI",
+                        "note": "Hemşire / Kadın hasta bakıcı",
+                        "image": "sets/set6/images/8.png",
+                        "audio": "sets/set6/audio/word_8.mp3"
+                },
+                {
+                        "id": 9,
+                        "arabic": "هٰذَا",
+                        "transcription": "hâzâ",
+                        "reading": "hâzâ",
+                        "turkish": "BU",
+                        "note": "Yakın / Eril",
+                        "image": "sets/set6/images/9.png",
+                        "audio": "sets/set6/audio/word_9.mp3"
+                },
+                {
+                        "id": 10,
+                        "arabic": "هٰذِهِ",
+                        "transcription": "hâzihi",
+                        "reading": "hâzihi",
+                        "turkish": "BU",
+                        "note": "Yakın / Dişil",
+                        "image": "sets/set6/images/10.png",
+                        "audio": "sets/set6/audio/word_10.mp3"
+                },
+                {
+                        "id": 11,
+                        "arabic": "ذٰلِكَ",
+                        "transcription": "zâlike",
+                        "reading": "zâlike",
+                        "turkish": "O / ŞU",
+                        "note": "Uzak / Eril",
+                        "image": "sets/set6/images/11.png",
+                        "audio": "sets/set6/audio/word_11.mp3"
+                },
+                {
+                        "id": 12,
+                        "arabic": "تِلْكَ",
+                        "transcription": "tilke",
+                        "reading": "tilke",
+                        "turkish": "O / ŞU",
+                        "note": "Uzak / Dişil",
+                        "image": "sets/set6/images/12.png",
+                        "audio": "sets/set6/audio/word_12.mp3"
+                },
+                {
+                        "id": 13,
+                        "arabic": "طَوِيل",
+                        "transcription": "tavîlun",
+                        "reading": "tavîlun",
+                        "turkish": "UZUN",
+                        "note": "eril",
+                        "image": "sets/set6/images/13.png",
+                        "audio": "sets/set6/audio/word_13.mp3"
+                },
+                {
+                        "id": 14,
+                        "arabic": "طَوِيلَة",
+                        "transcription": "tavîletun",
+                        "reading": "tavîletun",
+                        "turkish": "UZUN",
+                        "note": "dişil",
+                        "image": "sets/set6/images/14.png",
+                        "audio": "sets/set6/audio/word_14.mp3"
+                },
+                {
+                        "id": 15,
+                        "arabic": "قَصِير",
+                        "transcription": "kasîrun",
+                        "reading": "kasîrun",
+                        "turkish": "KISA",
+                        "note": "eril",
+                        "image": "sets/set6/images/15.png",
+                        "audio": "sets/set6/audio/word_15.mp3"
+                },
+                {
+                        "id": 16,
+                        "arabic": "قَصِيرَة",
+                        "transcription": "kasîratun",
+                        "reading": "kasîratun",
+                        "turkish": "KISA",
+                        "note": "dişil",
+                        "image": "sets/set6/images/16.png",
+                        "audio": "sets/set6/audio/word_16.mp3"
+                },
+                {
+                        "id": 17,
+                        "arabic": "الْهِنْد",
+                        "transcription": "el-Hind",
+                        "reading": "el-Hind",
+                        "turkish": "HINDISTAN",
+                        "note": "Hindistan",
+                        "image": "sets/set6/images/17.png",
+                        "audio": "sets/set6/audio/word_17.mp3"
+                },
+                {
+                        "id": 18,
+                        "arabic": "مِنَ الْهِنْدِ",
+                        "transcription": "mine'l-Hindi",
+                        "reading": "mine'l-Hindi",
+                        "turkish": "HINDISTAN'DAN",
+                        "note": "Hindistan'dan",
+                        "image": "sets/set6/images/18.png",
+                        "audio": "sets/set6/audio/word_18.mp3"
+                },
+                {
+                        "id": 19,
+                        "arabic": "الْيَابَان",
+                        "transcription": "el-Yâbân",
+                        "reading": "el-Yâbân",
+                        "turkish": "JAPONYA",
+                        "note": "Japonya",
+                        "image": "sets/set6/images/19.png",
+                        "audio": "sets/set6/audio/word_19.mp3"
+                },
+                {
+                        "id": 20,
+                        "arabic": "مِنَ الْيَابَانِ",
+                        "transcription": "mine'l-Yâbâni",
+                        "reading": "mine'l-Yâbâni",
+                        "turkish": "JAPONYA'DAN",
+                        "note": "Japonya'dan",
+                        "image": "sets/set6/images/20.png",
+                        "audio": "sets/set6/audio/word_20.mp3"
+                },
+                {
+                        "id": 21,
+                        "arabic": "جَامِعَة",
+                        "transcription": "câmiʿatun",
+                        "reading": "câmiʿatun",
+                        "turkish": "ÜNIVERSITE",
+                        "note": "dişil / müennes",
+                        "image": "sets/set6/images/21.png",
+                        "audio": "sets/set6/audio/word_21.mp3"
+                },
+                {
+                        "id": 22,
+                        "arabic": "حَجَر",
+                        "transcription": "hacerun",
+                        "reading": "hacerun",
+                        "turkish": "TAŞ",
+                        "note": "eril / müzekker",
+                        "image": "sets/set6/images/22.png",
+                        "audio": "sets/set6/audio/word_22.mp3"
+                },
+                {
+                        "id": 23,
+                        "arabic": "آمِنَة",
+                        "transcription": "Âminetu",
+                        "reading": "Âminetu",
+                        "turkish": "AMINE",
+                        "note": "Amine",
+                        "image": "sets/set6/images/23.png",
+                        "audio": "sets/set6/audio/word_23.mp3"
+                },
+                {
+                        "id": 24,
+                        "arabic": "مَرْيَم",
+                        "transcription": "Meryemu",
+                        "reading": "Meryemu",
+                        "turkish": "MERYEM",
+                        "note": "Meryem",
+                        "image": "sets/set6/images/24.png",
+                        "audio": "sets/set6/audio/word_24.mp3"
+                },
+                {
+                        "id": 25,
+                        "arabic": "فَاطِمَة",
+                        "transcription": "Fâtımatu",
+                        "reading": "Fâtımatu",
+                        "turkish": "FATMA",
+                        "note": "Fatma",
+                        "image": "sets/set6/images/25.png",
+                        "audio": "sets/set6/audio/word_25.mp3"
+                },
+                {
+                        "id": 27,
+                        "arabic": "حَامِد",
+                        "transcription": "Hâmidun",
+                        "reading": "Hâmidun",
+                        "turkish": "HAMID",
+                        "note": "Hamid",
+                        "image": "sets/set6/images/27.png",
+                        "audio": "sets/set6/audio/word_27.mp3"
+                },
+                {
+                        "id": 30,
+                        "arabic": "مُدَرِّسَة",
+                        "transcription": "muderrisetun",
+                        "reading": "muderrisetun",
+                        "turkish": "KADIN ÖĞRETMEN",
+                        "note": "Kadın öğretmen",
+                        "image": "sets/set6/images/30.png",
+                        "audio": "sets/set6/audio/word_30.mp3"
+                },
+                {
+                        "id": 31,
+                        "arabic": "طَالِبَة",
+                        "transcription": "tâlibetun",
+                        "reading": "tâlibetun",
+                        "turkish": "KIZ ÖĞRENCI",
+                        "note": "Kız öğrenci",
+                        "image": "sets/set6/images/31.png",
+                        "audio": "sets/set6/audio/word_31.mp3"
+                },
+                {
+                        "id": 32,
+                        "arabic": "طَبِيبَة",
+                        "transcription": "tabîbetun",
+                        "reading": "tabîbetun",
+                        "turkish": "KADIN DOKTOR",
+                        "note": "Kadın doktor",
+                        "image": "sets/set6/images/32.png",
+                        "audio": "sets/set6/audio/word_32.mp3"
+                },
+                {
+                        "id": 33,
+                        "arabic": "مَا تِلْكَ؟",
+                        "transcription": "Mâ tilke?",
+                        "reading": "Mâ tilke?",
+                        "turkish": "O / ŞU NEDIR?",
+                        "note": "dişil nesneler için",
+                        "image": "sets/set6/images/33.png",
+                        "audio": "sets/set6/audio/word_33.mp3"
+                },
+                {
+                        "id": 34,
+                        "arabic": "مَنْ تِلْكَ؟",
+                        "transcription": "Men tilke?",
+                        "reading": "Men tilke?",
+                        "turkish": "O / ŞU KIMDIR?",
+                        "note": "bayanlar için",
+                        "image": "sets/set6/images/34.png",
+                        "audio": "sets/set6/audio/word_34.mp3"
+                },
+                {
+                        "id": 35,
+                        "arabic": "أَتِلْكَ ...؟",
+                        "transcription": "E-tilke ...?",
+                        "reading": "E-tilke ...?",
+                        "turkish": "O / ŞU ... MIDIR?",
+                        "note": "dişil varlıklar için teyit sorusu",
+                        "image": "sets/set6/images/35.png",
+                        "audio": "sets/set6/audio/word_35.mp3"
+                },
+                {
+                        "id": 36,
+                        "arabic": "أَذٰلِكَ ...؟",
+                        "transcription": "E-zâlike ...?",
+                        "reading": "E-zâlike ...?",
+                        "turkish": "O / ŞU ... MIDIR?",
+                        "note": "eril varlıklar için teyit sorusu",
+                        "image": "sets/set6/images/36.png",
+                        "audio": "sets/set6/audio/word_36.mp3"
+                },
+                {
+                        "id": 37,
+                        "arabic": "هٰذَا بِلَالٌ وَذٰلِكَ حَامِدٌ",
+                        "transcription": "Hâzâ Bilâlun ve zâlike Hâmidun.",
+                        "reading": "Hâzâ Bilâlun ve zâlike Hâmidun.",
+                        "turkish": "Bu Bilal'dir, şu ise Hamid'dir.",
+                        "note": "Bu Bilal'dir, şu ise Hamid'dir.",
+                        "image": "sets/set6/images/37.png",
+                        "audio": "sets/set6/audio/word_37.mp3"
+                },
+                {
+                        "id": 38,
+                        "arabic": "هٰذِهِ آمِنَةُ وَتِلْكَ مَرْيَمُ",
+                        "transcription": "Hâzihi Âminetu ve tilke Meryemu.",
+                        "reading": "Hâzihi Âminetu ve tilke Meryemu.",
+                        "turkish": "Bu Amine'dir, şu ise Meryem'dir.",
+                        "note": "Bu Amine'dir, şu ise Meryem'dir.",
+                        "image": "sets/set6/images/38.png",
+                        "audio": "sets/set6/audio/word_38.mp3"
+                },
+                {
+                        "id": 39,
+                        "arabic": "مَنْ هٰذِهِ؟ هٰذِهِ آمِنَةُ. وَمَنْ تِلْكَ؟ تِلْكَ فَاطِمَةُ.",
+                        "transcription": "Men hâzihi? Hâzihi Âminetu. Ve men tilke? Tilke Fâtımatu.",
+                        "reading": "Men hâzihi? Hâzihi Âminetu. Ve men tilke? Tilke Fâtımatu.",
+                        "turkish": "Bu kimdir? Bu Amine'dir. Şu kimdir? Şu Fatma'dır.",
+                        "note": "Bu kimdir? Bu Amine'dir. Şu kimdir? Şu Fatma'dır.",
+                        "image": "sets/set6/images/39.png",
+                        "audio": "sets/set6/audio/word_39.mp3"
+                },
+                {
+                        "id": 40,
+                        "arabic": "هٰذِهِ طَبِيبَةٌ وَتِلْكَ مُمَرِّضَةٌ",
+                        "transcription": "Hâzihi tabîbetun ve tilke mumarridatun.",
+                        "reading": "Hâzihi tabîbetun ve tilke mumarridatun.",
+                        "turkish": "Bu bir  doktordur, şu ise bir hemşiredir.",
+                        "note": "kadın",
+                        "image": "sets/set6/images/40.png",
+                        "audio": "sets/set6/audio/word_40.mp3"
+                },
+                {
+                        "id": 41,
+                        "arabic": "هٰذِهِ مِنَ الْهِنْدِ وَتِلْكَ مِنَ الْيَابَانِ",
+                        "transcription": "Hâzihi mine'l-Hindi ve tilke mine'l-Yâbâni.",
+                        "reading": "Hâzihi mine'l-Hindi ve tilke mine'l-Yâbâni.",
+                        "turkish": "Bu Hindistan'dandır, şu ise Japonya'dandır.",
+                        "note": "Bu Hindistan'dandır, şu ise Japonya'dandır.",
+                        "image": "sets/set6/images/41.png",
+                        "audio": "sets/set6/audio/word_41.mp3"
+                },
+                {
+                        "id": 42,
+                        "arabic": "هٰذِهِ طَوِيلَةٌ وَتِلْكَ قَصِيرَةٌ",
+                        "transcription": "Hâzihi tavîletun ve tilke kasîratun.",
+                        "reading": "Hâzihi tavîletun ve tilke kasîratun.",
+                        "turkish": "BU UZUNDUR, ŞU ISE KISADIR.",
+                        "note": "Bu uzundur, şu ise kısadır.",
+                        "image": "sets/set6/images/42.png",
+                        "audio": "sets/set6/audio/word_42.mp3"
+                },
+                {
+                        "id": 43,
+                        "arabic": "مَنْ هٰذَا؟ هٰذَا حَامِدٌ. وَمَنْ ذٰلِكَ؟ ذٰلِكَ عَلِيٌّ.",
+                        "transcription": "Men hâzâ? Hâzâ Hâmidun. Ve men zâlike? Zâlike ʿAliyyun.",
+                        "reading": "Men hâzâ? Hâzâ Hâmidun. Ve men zâlike? Zâlike ʿAliyyun.",
+                        "turkish": "Bu kim? Bu Hamid'dir. Şu kim? Şu Ali'dir.",
+                        "note": "Bu kim? Bu Hamid'dir. Şu kim? Şu Ali'dir.",
+                        "image": "sets/set6/images/43.png",
+                        "audio": "sets/set6/audio/word_43.mp3"
+                },
+                {
+                        "id": 44,
+                        "arabic": "أَتِلْكَ دَجَاجَةٌ؟ لَا، تِلْكَ بَطَّةٌ",
+                        "transcription": "E-tilke decâcetun? Lâ, tilke battatun.",
+                        "reading": "E-tilke decâcetun? Lâ, tilke battatun.",
+                        "turkish": "O bir tavuk mu? Hayır, o bir ördektir.",
+                        "note": "O bir tavuk mu? Hayır, o bir ördektir.",
+                        "image": "sets/set6/images/44.png",
+                        "audio": "sets/set6/audio/word_44.mp3"
+                },
+                {
+                        "id": 45,
+                        "arabic": "مَا تِلْكَ؟ تِلْكَ بَيْضَةٌ",
+                        "transcription": "Mâ tilke? Tilke beydatun.",
+                        "reading": "Mâ tilke? Tilke beydatun.",
+                        "turkish": "O NEDIR? O BIR YUMURTADIR.",
+                        "note": "O nedir? O bir yumurtadır.",
+                        "image": "sets/set6/images/45.png",
+                        "audio": "sets/set6/audio/word_45.mp3"
+                },
+                {
+                        "id": 46,
+                        "arabic": "هٰذِهِ سَيَّارَةُ الْمُدَرِّسِ وَتِلْكَ سَيَّارَةُ الْمُدِيرِ",
+                        "transcription": "Hâzihi seyyâratu'l-muderrisi ve tilke seyyâratu'l-mudîri.",
+                        "reading": "Hâzihi seyyâratu'l-muderrisi ve tilke seyyâratu'l-mudîri.",
+                        "turkish": "Bu öğretmenin arabası, şu ise müdürün arabasıdır.",
+                        "note": "Bu öğretmenin arabası, şu ise müdürün arabasıdır.",
+                        "image": "sets/set6/images/46.png",
+                        "audio": "sets/set6/audio/word_46.mp3"
+                },
+                {
+                        "id": 47,
+                        "arabic": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟ لَا، هٰذِهِ سَاعَةُ حَامِدٍ، تِلْكَ سَاعَةُ عَبَّاسٍ",
+                        "transcription": "E-sâʿatu ʿAbbâsin hâzihi? Lâ, hâzihi sâʿatu Hâmidin, tilke sâʿatu ʿAbbâsin.",
+                        "reading": "E-sâʿatu ʿAbbâsin hâzihi? Lâ, hâzihi sâʿatu Hâmidin, tilke sâʿatu ʿAbbâsin.",
+                        "turkish": "Bu Abbas'ın saati mi? Hayır, bu Hamid'in saati; şu  Abbas'ın saatidir.",
+                        "note": "ötedeki",
+                        "image": "sets/set6/images/47.png",
+                        "audio": "sets/set6/audio/word_47.mp3"
+                },
+                {
+                        "id": 48,
+                        "arabic": "ذٰلِكَ دِيكٌ وَتِلْكَ دَجَاجَةٌ",
+                        "transcription": "Zâlike dîkun ve tilke decâcetun.",
+                        "reading": "Zâlike dîkun ve tilke decâcetun.",
+                        "turkish": "O bir horozdur, şu ise bir tavuktur.",
+                        "note": "O bir horozdur, şu ise bir tavuktur.",
+                        "image": "sets/set6/images/48.png",
+                        "audio": "sets/set6/audio/word_48.mp3"
+                },
+                {
+                        "id": 49,
+                        "arabic": "هٰذِهِ مَدْرَسَةٌ وَتِلْكَ جَامِعَةٌ",
+                        "transcription": "Hâzihi medresetun ve tilke câmiʿatun.",
+                        "reading": "Hâzihi medresetun ve tilke câmiʿatun.",
+                        "turkish": "Bu bir okuldur, şu ise bir üniversitedir.",
+                        "note": "Bu bir okuldur, şu ise bir üniversitedir.",
+                        "image": "sets/set6/images/49.png",
+                        "audio": "sets/set6/audio/word_49.mp3"
+                },
+                {
+                        "id": 50,
+                        "arabic": "ذٰلِكَ حِمَارٌ وَتِلْكَ بَقَرَةٌ",
+                        "transcription": "Zâlike hımârun ve tilke bekaratun.",
+                        "reading": "Zâlike hımârun ve tilke bekaratun.",
+                        "turkish": "O bir eşektir, şu ise bir inektir.",
+                        "note": "O bir eşektir, şu ise bir inektir.",
+                        "image": "sets/set6/images/50.png",
+                        "audio": "sets/set6/audio/word_50.mp3"
+                },
+                {
+                        "id": 51,
+                        "arabic": "أَذٰلِكَ مَسْجِدٌ؟ لَا، تِلْكَ مَدْرَسَةٌ",
+                        "transcription": "E-zâlike mescidun? Lâ, tilke medresetun.",
+                        "reading": "E-zâlike mescidun? Lâ, tilke medresetun.",
+                        "turkish": "O bir mescit mi? Hayır, o bir okuldur.",
+                        "note": "O bir mescit mi? Hayır, o bir okuldur.",
+                        "image": "sets/set6/images/51.png",
+                        "audio": "sets/set6/audio/word_51.mp3"
+                },
+                {
+                        "id": 52,
+                        "arabic": "هٰذَا جَمَلٌ وَتِلْكَ نَاقَةٌ",
+                        "transcription": "Hâzâ cemelun ve tilke nâkatun.",
+                        "reading": "Hâzâ cemelun ve tilke nâkatun.",
+                        "turkish": "Bu  bir devedir, şu ise dişi bir devedir.",
+                        "note": "erkek",
+                        "image": "sets/set6/images/52.png",
+                        "audio": "sets/set6/audio/word_52.mp3"
+                },
+                {
+                        "id": 53,
+                        "arabic": "هٰذِهِ مُدَرِّسَةٌ وَتِلْكَ طَالِبَةٌ",
+                        "transcription": "Hâzihi muderrisetun ve tilke tâlibetun.",
+                        "reading": "Hâzihi muderrisetun ve tilke tâlibetun.",
+                        "turkish": "Bu bir kadın öğretmendir, şu ise bir kız öğrencidir.",
+                        "note": "Bu bir kadın öğretmendir, şu ise bir kız öğrencidir.",
+                        "image": "sets/set6/images/53.png",
+                        "audio": "sets/set6/audio/word_53.mp3"
+                },
+                {
+                        "id": 54,
+                        "arabic": "هٰذَا كَلْبٌ وَذٰلِكَ قِطٌّ",
+                        "transcription": "Hâzâ kelbun ve zâlike kıttun.",
+                        "reading": "Hâzâ kelbun ve zâlike kıttun.",
+                        "turkish": "Bu bir köpektir, şu ise bir kedidir.",
+                        "note": "Bu bir köpektir, şu ise bir kedidir.",
+                        "image": "sets/set6/images/54.png",
+                        "audio": "sets/set6/audio/word_54.mp3"
+                },
+                {
+                        "id": 55,
+                        "arabic": "هٰذَا بَيْتُ الْمُؤَذِّنِ وَتِلْكَ حَدِيقَةُ التَّاجِرِ",
+                        "transcription": "Hâzâ beytu'l-muezzini ve tilke hadîkatu't-tâciri.",
+                        "reading": "Hâzâ beytu'l-muezzini ve tilke hadîkatu't-tâciri.",
+                        "turkish": "Bu müezzinin evidir, şu ise tüccarın bahçesidir.",
+                        "note": "Bu müezzinin evidir, şu ise tüccarın bahçesidir.",
+                        "image": "sets/set6/images/55.png",
+                        "audio": "sets/set6/audio/word_55.mp3"
+                }
+        ]
+},
+  "set7": {
+        "id": "set7",
+        "title": "SET-7: Eşyalar, Ülkeler, Mekan Edatları & Cümleler",
+        "description": "Medine Arapçası 7. Ders: Bıçak, kaşık, bisiklet, ülkeler, önünde/arkasında ve iyelik cümleleri",
+        "badge": "SET-7",
+        "color": "#8b5cf6",
+        "available": true,
+        "words": [
+                {
+                        "id": 1,
+                        "arabic": "السِّكِّين",
+                        "transcription": "es-sikkîn",
+                        "reading": "es-sikkîn",
+                        "turkish": "BIÇAK",
+                        "note": "Bıçak",
+                        "image": "sets/set7/images/1.png",
+                        "audio": "sets/set7/audio/word_1.mp3"
+                },
+                {
+                        "id": 2,
+                        "arabic": "الْمِلْعَقَة",
+                        "transcription": "el-milʿaka",
+                        "reading": "el-milʿaka",
+                        "turkish": "KAŞIK",
+                        "note": "Kaşık",
+                        "image": "sets/set7/images/2.png",
+                        "audio": "sets/set7/audio/word_2.mp3"
+                },
+                {
+                        "id": 3,
+                        "arabic": "السَّاعَة",
+                        "transcription": "es-sâʿa",
+                        "reading": "es-sâʿa",
+                        "turkish": "SAAT",
+                        "note": "Saat",
+                        "image": "sets/set7/images/3.png",
+                        "audio": "sets/set7/audio/word_3.mp3"
+                },
+                {
+                        "id": 4,
+                        "arabic": "الدَّرَّاجَة",
+                        "transcription": "ed-derrâce",
+                        "reading": "ed-derrâce",
+                        "turkish": "BISIKLET",
+                        "note": "Bisiklet",
+                        "image": "sets/set7/images/4.png",
+                        "audio": "sets/set7/audio/word_4.mp3"
+                },
+                {
+                        "id": 5,
+                        "arabic": "الْمِنْدِيل",
+                        "transcription": "el-mindîl",
+                        "reading": "el-mindîl",
+                        "turkish": "MENDIL",
+                        "note": "Mendil",
+                        "image": "sets/set7/images/5.png",
+                        "audio": "sets/set7/audio/word_5.mp3"
+                },
+                {
+                        "id": 6,
+                        "arabic": "الْبَاب",
+                        "transcription": "el-bâb",
+                        "reading": "el-bâb",
+                        "turkish": "KAPI",
+                        "note": "Kapı",
+                        "image": "sets/set7/images/6.png",
+                        "audio": "sets/set7/audio/word_6.mp3"
+                },
+                {
+                        "id": 7,
+                        "arabic": "الْمَطْبَخ",
+                        "transcription": "el-matbah",
+                        "reading": "el-matbah",
+                        "turkish": "MUTFAK",
+                        "note": "Mutfak",
+                        "image": "sets/set7/images/7.png",
+                        "audio": "sets/set7/audio/word_7.mp3"
+                },
+                {
+                        "id": 8,
+                        "arabic": "الْفَصْل",
+                        "transcription": "el-fasl",
+                        "reading": "el-fasl",
+                        "turkish": "SINIF",
+                        "note": "Sınıf",
+                        "image": "sets/set7/images/8.png",
+                        "audio": "sets/set7/audio/word_8.mp3"
+                },
+                {
+                        "id": 9,
+                        "arabic": "الْحَدِيقَة",
+                        "transcription": "el-hadîka",
+                        "reading": "el-hadîka",
+                        "turkish": "BAHÇE",
+                        "note": "Bahçe",
+                        "image": "sets/set7/images/9.png",
+                        "audio": "sets/set7/audio/word_9.mp3"
+                },
+                {
+                        "id": 10,
+                        "arabic": "الشَّارِع",
+                        "transcription": "eş-şâriʿ",
+                        "reading": "eş-şâriʿ",
+                        "turkish": "CADDE / SOKAK",
+                        "note": "Cadde / Sokak",
+                        "image": "sets/set7/images/10.png",
+                        "audio": "sets/set7/audio/word_10.mp3"
+                },
+                {
+                        "id": 11,
+                        "arabic": "أَمْرِيكَا",
+                        "transcription": "Emrîkâ",
+                        "reading": "Emrîkâ",
+                        "turkish": "AMERIKA",
+                        "note": "Amerika",
+                        "image": "sets/set7/images/11.png",
+                        "audio": "sets/set7/audio/word_11.mp3"
+                },
+                {
+                        "id": 12,
+                        "arabic": "أَلْمَانْيَا",
+                        "transcription": "Elmânyâ",
+                        "reading": "Elmânyâ",
+                        "turkish": "ALMANYA",
+                        "note": "Almanya",
+                        "image": "sets/set7/images/12.png",
+                        "audio": "sets/set7/audio/word_12.mp3"
+                },
+                {
+                        "id": 13,
+                        "arabic": "إِنْكَلْتِرَا",
+                        "transcription": "İnkelterâ",
+                        "reading": "İnkelterâ",
+                        "turkish": "İNGILTERE",
+                        "note": "İngiltere",
+                        "image": "sets/set7/images/13.png",
+                        "audio": "sets/set7/audio/word_13.mp3"
+                },
+                {
+                        "id": 14,
+                        "arabic": "سُوِيسْرَا",
+                        "transcription": "Suvîsrâ",
+                        "reading": "Suvîsrâ",
+                        "turkish": "İSVIÇRE",
+                        "note": "İsviçre",
+                        "image": "sets/set7/images/14.png",
+                        "audio": "sets/set7/audio/word_14.mp3"
+                },
+                {
+                        "id": 15,
+                        "arabic": "الْيَابَان",
+                        "transcription": "el-Yâbân",
+                        "reading": "el-Yâbân",
+                        "turkish": "JAPONYA",
+                        "note": "Japonya",
+                        "image": "sets/set7/images/15.png",
+                        "audio": "sets/set7/audio/word_15.mp3"
+                },
+                {
+                        "id": 16,
+                        "arabic": "الْعِرَاق",
+                        "transcription": "el-ʿIrâk",
+                        "reading": "el-ʿIrâk",
+                        "turkish": "IRAK",
+                        "note": "Irak",
+                        "image": "sets/set7/images/16.png",
+                        "audio": "sets/set7/audio/word_16.mp3"
+                },
+                {
+                        "id": 17,
+                        "arabic": "أَمَامَ",
+                        "transcription": "emâme",
+                        "reading": "emâme",
+                        "turkish": "ÖNÜNDE",
+                        "note": "Önünde",
+                        "image": "sets/set7/images/17.png",
+                        "audio": "sets/set7/audio/word_17.mp3"
+                },
+                {
+                        "id": 18,
+                        "arabic": "خَلْفَ",
+                        "transcription": "halfe",
+                        "reading": "halfe",
+                        "turkish": "ARKASINDA",
+                        "note": "Arkasında",
+                        "image": "sets/set7/images/18.png",
+                        "audio": "sets/set7/audio/word_18.mp3"
+                },
+                {
+                        "id": 19,
+                        "arabic": "عَلَى",
+                        "transcription": "ʿalâ",
+                        "reading": "ʿalâ",
+                        "turkish": "ÜZERINDE / ÜSTÜNDE",
+                        "note": "Üzerinde / Üstünde",
+                        "image": "sets/set7/images/19.png",
+                        "audio": "sets/set7/audio/word_19.mp3"
+                },
+                {
+                        "id": 20,
+                        "arabic": "تَحْتَ",
+                        "transcription": "tahte",
+                        "reading": "tahte",
+                        "turkish": "ALTINDA",
+                        "note": "Altında",
+                        "image": "sets/set7/images/20.png",
+                        "audio": "sets/set7/audio/word_20.mp3"
+                },
+                {
+                        "id": 21,
+                        "arabic": "الرَّجُل",
+                        "transcription": "er-racul",
+                        "reading": "er-racul",
+                        "turkish": "ADAM",
+                        "note": "Adam",
+                        "image": "sets/set7/images/21.png",
+                        "audio": "sets/set7/audio/word_21.mp3"
+                },
+                {
+                        "id": 22,
+                        "arabic": "الْوَلَد",
+                        "transcription": "el-veled",
+                        "reading": "el-veled",
+                        "turkish": "ÇOCUK / ERKEK ÇOCUK",
+                        "note": "Çocuk / Erkek çocuk",
+                        "image": "sets/set7/images/22.png",
+                        "audio": "sets/set7/audio/word_22.mp3"
+                },
+                {
+                        "id": 23,
+                        "arabic": "التَّاجِر",
+                        "transcription": "et-tâcir",
+                        "reading": "et-tâcir",
+                        "turkish": "TÜCCAR",
+                        "note": "Tüccar",
+                        "image": "sets/set7/images/23.png",
+                        "audio": "sets/set7/audio/word_23.mp3"
+                },
+                {
+                        "id": 24,
+                        "arabic": "الطَّبِيب",
+                        "transcription": "et-tabîb",
+                        "reading": "et-tabîb",
+                        "turkish": "DOKTOR",
+                        "note": "Doktor",
+                        "image": "sets/set7/images/24.png",
+                        "audio": "sets/set7/audio/word_24.mp3"
+                },
+                {
+                        "id": 25,
+                        "arabic": "الْمُدَرِّس",
+                        "transcription": "el-muderris",
+                        "reading": "el-muderris",
+                        "turkish": "ÖĞRETMEN",
+                        "note": "Öğretmen",
+                        "image": "sets/set7/images/25.png",
+                        "audio": "sets/set7/audio/word_25.mp3"
+                },
+                {
+                        "id": 26,
+                        "arabic": "الْفَلَّاح",
+                        "transcription": "el-fellâh",
+                        "reading": "el-fellâh",
+                        "turkish": "ÇIFTÇI",
+                        "note": "Çiftçi",
+                        "image": "sets/set7/images/26.png",
+                        "audio": "sets/set7/audio/word_26.mp3"
+                },
+                {
+                        "id": 27,
+                        "arabic": "الْمُدِير",
+                        "transcription": "el-mudîr",
+                        "reading": "el-mudîr",
+                        "turkish": "MÜDÜR",
+                        "note": "Müdür",
+                        "image": "sets/set7/images/27.png",
+                        "audio": "sets/set7/audio/word_27.mp3"
+                },
+                {
+                        "id": 28,
+                        "arabic": "الْمُؤَذِّن",
+                        "transcription": "el-muezzin",
+                        "reading": "el-muezzin",
+                        "turkish": "MÜEZZIN",
+                        "note": "Müezzin",
+                        "image": "sets/set7/images/28.png",
+                        "audio": "sets/set7/audio/word_28.mp3"
+                },
+                {
+                        "id": 29,
+                        "arabic": "الْمُهَنْدِس",
+                        "transcription": "el-muhendis",
+                        "reading": "el-muhendis",
+                        "turkish": "MÜHENDIS",
+                        "note": "Mühendis",
+                        "image": "sets/set7/images/29.png",
+                        "audio": "sets/set7/audio/word_29.mp3"
+                },
+                {
+                        "id": 30,
+                        "arabic": "الطَّالِب",
+                        "transcription": "et-tâlib",
+                        "reading": "et-tâlib",
+                        "turkish": "ÖĞRENCI",
+                        "note": "Öğrenci",
+                        "image": "sets/set7/images/30.png",
+                        "audio": "sets/set7/audio/word_30.mp3"
+                },
+                {
+                        "id": 31,
+                        "arabic": "بِنْتُ الْفَلَّاحِ",
+                        "transcription": "bintu'l-fellâh",
+                        "reading": "bintu'l-fellâh",
+                        "turkish": "ÇIFTÇININ KIZI",
+                        "note": "Çiftçinin kızı",
+                        "image": "sets/set7/images/31.png",
+                        "audio": "sets/set7/audio/word_31.mp3"
+                },
+                {
+                        "id": 32,
+                        "arabic": "ابْنُ الْمُدِيرِ",
+                        "transcription": "ibnu'l-mudîr",
+                        "reading": "ibnu'l-mudîr",
+                        "turkish": "MÜDÜRÜN OĞLU",
+                        "note": "Müdürün oğlu",
+                        "image": "sets/set7/images/32.png",
+                        "audio": "sets/set7/audio/word_32.mp3"
+                },
+                {
+                        "id": 33,
+                        "arabic": "رَئِيس",
+                        "transcription": "raîs",
+                        "reading": "raîs",
+                        "turkish": "BAŞKAN / REIS",
+                        "note": "Başkan / Reis",
+                        "image": "sets/set7/images/33.png",
+                        "audio": "sets/set7/audio/word_33.mp3"
+                },
+                {
+                        "id": 34,
+                        "arabic": "جَدِيد / قَدِيم",
+                        "transcription": "cedîd / kadîm",
+                        "reading": "cedîd / kadîm",
+                        "turkish": "YENI / ESKI KARŞILAŞTIRMASI",
+                        "note": "Yeni / Eski Karşılaştırması",
+                        "image": "sets/set7/images/34.png",
+                        "audio": "sets/set7/audio/word_34.mp3"
+                },
+                {
+                        "id": 35,
+                        "arabic": "مَفْتُوح / مُغْلَق",
+                        "transcription": "meftûh / muglak",
+                        "reading": "meftûh / muglak",
+                        "turkish": "AÇIK / KAPALI KAPI",
+                        "note": "Açık / Kapalı Kapı",
+                        "image": "sets/set7/images/35.png",
+                        "audio": "sets/set7/audio/word_35.mp3"
+                },
+                {
+                        "id": 36,
+                        "arabic": "نَظِيف",
+                        "transcription": "nazîf",
+                        "reading": "nazîf",
+                        "turkish": "TEMIZ",
+                        "note": "Temiz",
+                        "image": "sets/set7/images/36.png",
+                        "audio": "sets/set7/audio/word_36.mp3"
+                },
+                {
+                        "id": 37,
+                        "arabic": "كَبِير",
+                        "transcription": "kebîr",
+                        "reading": "kebîr",
+                        "turkish": "BÜYÜK",
+                        "note": "Büyük",
+                        "image": "sets/set7/images/37.png",
+                        "audio": "sets/set7/audio/word_37.mp3"
+                },
+                {
+                        "id": 38,
+                        "arabic": "جَمِيل",
+                        "transcription": "cemîl",
+                        "reading": "cemîl",
+                        "turkish": "GÜZEL",
+                        "note": "Güzel",
+                        "image": "sets/set7/images/38.png",
+                        "audio": "sets/set7/audio/word_38.mp3"
+                },
+                {
+                        "id": 39,
+                        "arabic": "سَرِيع",
+                        "transcription": "serîʿ",
+                        "reading": "serîʿ",
+                        "turkish": "HIZLI",
+                        "note": "Hızlı",
+                        "image": "sets/set7/images/39.png",
+                        "audio": "sets/set7/audio/word_39.mp3"
+                },
+                {
+                        "id": 40,
+                        "arabic": "جَلَسَ أَمَامَ الْمُدَرِّسِ",
+                        "transcription": "Celese emâme'l-muderrisi",
+                        "reading": "Celese emâme'l-muderrisi",
+                        "turkish": "ÖĞRETMENIN ÖNÜNE OTURDU",
+                        "note": "Öğretmenin önüne oturdu",
+                        "image": "sets/set7/images/40.png",
+                        "audio": "sets/set7/audio/word_40.mp3"
+                },
+                {
+                        "id": 41,
+                        "arabic": "هٰذَا كِتَابٌ",
+                        "transcription": "Hâzâ kitâbun",
+                        "reading": "Hâzâ kitâbun",
+                        "turkish": "BU BIR KITAPTIR",
+                        "note": "Bu bir kitaptır",
+                        "image": "sets/set7/images/41.png",
+                        "audio": "sets/set7/audio/word_41.mp3"
+                },
+                {
+                        "id": 42,
+                        "arabic": "هٰذِهِ سَيَّارَةٌ",
+                        "transcription": "Hâzihi seyyâratun",
+                        "reading": "Hâzihi seyyâratun",
+                        "turkish": "BU BIR ARABADIR",
+                        "note": "Bu bir arabadır",
+                        "image": "sets/set7/images/42.png",
+                        "audio": "sets/set7/audio/word_42.mp3"
+                },
+                {
+                        "id": 43,
+                        "arabic": "هٰذَا الْكِتَابُ جَدِيدٌ",
+                        "transcription": "Hâze'l-kitâbu cedîdun",
+                        "reading": "Hâze'l-kitâbu cedîdun",
+                        "turkish": "BU KITAP YENIDIR",
+                        "note": "Bu kitap yenidir",
+                        "image": "sets/set7/images/43.png",
+                        "audio": "sets/set7/audio/word_43.mp3"
+                },
+                {
+                        "id": 44,
+                        "arabic": "تِلْكَ السَّيَّارَةُ لِلطَّبِيبِ",
+                        "transcription": "Tilke's-seyyâratu lit-tabîbi",
+                        "reading": "Tilke's-seyyâratu lit-tabîbi",
+                        "turkish": "O ARABA DOKTORA AITTIR",
+                        "note": "O araba doktora aittir",
+                        "image": "sets/set7/images/44.png",
+                        "audio": "sets/set7/audio/word_44.mp3"
+                },
+                {
+                        "id": 45,
+                        "arabic": "هٰذَا الْمِفْتَاحُ لِحَامِدٍ",
+                        "transcription": "Hâze'l-miftâhu li-Hâmidin",
+                        "reading": "Hâze'l-miftâhu li-Hâmidin",
+                        "turkish": "BU ANAHTAR HAMID'INDIR",
+                        "note": "Bu anahtar Hamid'indir",
+                        "image": "sets/set7/images/45.png",
+                        "audio": "sets/set7/audio/word_45.mp3"
+                },
+                {
+                        "id": 46,
+                        "arabic": "الدَّرَّاجَةُ فِي الْحَدِيقَةِ",
+                        "transcription": "Ed-derrâcetu fi'l-hadîkati",
+                        "reading": "Ed-derrâcetu fi'l-hadîkati",
+                        "turkish": "BISIKLET BAHÇEDEDIR",
+                        "note": "Bisiklet bahçededir",
+                        "image": "sets/set7/images/46.png",
+                        "audio": "sets/set7/audio/word_46.mp3"
+                },
+                {
+                        "id": 47,
+                        "arabic": "السَّيَّارَةُ أَمَامَ الْبَيْتِ",
+                        "transcription": "Es-seyyâratu emâme'l-beyti",
+                        "reading": "Es-seyyâratu emâme'l-beyti",
+                        "turkish": "ARABA EVIN ÖNÜNDEDIR",
+                        "note": "Araba evin önündedir",
+                        "image": "sets/set7/images/47.png",
+                        "audio": "sets/set7/audio/word_47.mp3"
+                },
+                {
+                        "id": 48,
+                        "arabic": "الْكُرْسِيُّ خَلْفَ الْمَكْتَبِ",
+                        "transcription": "El-kursiyyu halfe'l-mektebi",
+                        "reading": "El-kursiyyu halfe'l-mektebi",
+                        "turkish": "SANDALYE MASANIN ARKASINDADIR",
+                        "note": "Sandalye masanın arkasındadır",
+                        "image": "sets/set7/images/48.png",
+                        "audio": "sets/set7/audio/word_48.mp3"
+                },
+                {
+                        "id": 49,
+                        "arabic": "هٰذِهِ الْبَقَرَةُ لِلْفَلَّاحِ",
+                        "transcription": "Hâzihi'l-bekaratu lil-fellâhi",
+                        "reading": "Hâzihi'l-bekaratu lil-fellâhi",
+                        "turkish": "BU INEK ÇIFTÇININDIR",
+                        "note": "Bu inek çiftçinindir",
+                        "image": "sets/set7/images/49.png",
+                        "audio": "sets/set7/audio/word_49.mp3"
+                },
+                {
+                        "id": 50,
+                        "arabic": "هٰذَا الدِّيكُ لِبِنْتِ الْفَلَّاحِ",
+                        "transcription": "Hâze'd-dîku li-binti'l-fellâhi",
+                        "reading": "Hâze'd-dîku li-binti'l-fellâhi",
+                        "turkish": "BU HOROZ ÇIFTÇININ KIZININDIR",
+                        "note": "Bu horoz çiftçinin kızınındır",
+                        "image": "sets/set7/images/50.png",
+                        "audio": "sets/set7/audio/word_50.mp3"
+                },
+                {
+                        "id": 51,
+                        "arabic": "هٰذَا الْقَمِيصُ لِلطَّبِيبِ",
+                        "transcription": "Hâze'l-kamîsu lit-tabîbi",
+                        "reading": "Hâze'l-kamîsu lit-tabîbi",
+                        "turkish": "BU GÖMLEK DOKTORUNDUR",
+                        "note": "Bu gömlek doktorundur",
+                        "image": "sets/set7/images/51.png",
+                        "audio": "sets/set7/audio/word_51.mp3"
+                },
+                {
+                        "id": 52,
+                        "arabic": "هٰذِهِ السَّاعَةُ لِابْنِ الْمُدِيرِ",
+                        "transcription": "Hâzihi's-sâʿatu libni'l-mudîri",
+                        "reading": "Hâzihi's-sâʿatu libni'l-mudîri",
+                        "turkish": "BU SAAT MÜDÜRÜN OĞLUNUNDUR",
+                        "note": "Bu saat müdürün oğlunundur",
+                        "image": "sets/set7/images/52.png",
+                        "audio": "sets/set7/audio/word_52.mp3"
+                },
+                {
+                        "id": 53,
+                        "arabic": "الْمِنْدِيلُ فِي حَقِيبَةِ الطَّالِبِ",
+                        "transcription": "El-mindîlu fî hakîbeti't-tâlibi",
+                        "reading": "El-mindîlu fî hakîbeti't-tâlibi",
+                        "turkish": "Mendil öğrencinin çantasındadır",
+                        "note": "Mendil öğrencinin çantasındadır",
+                        "image": "sets/set7/images/53.png",
+                        "audio": "sets/set7/audio/word_53.mp3"
+                },
+                {
+                        "id": 54,
+                        "arabic": "اسْمُ التَّاجِرِ مَحْمُودٌ وَاسْمُ الطَّبِيبِ سَعِيدٌ",
+                        "transcription": "İsmu't-tâciri Mahmûdun vasmu't-tabîbi Saʿîdun",
+                        "reading": "İsmu't-tâciri Mahmûdun vasmu't-tabîbi Saʿîdun",
+                        "turkish": "Tüccarın adı Mahmut, doktorun adı ise Said'dir",
+                        "note": "Tüccarın adı Mahmut, doktorun adı ise Said'dir",
+                        "image": "sets/set7/images/54.png",
+                        "audio": "sets/set7/audio/word_54.mp3"
+                },
+                {
+                        "id": 55,
+                        "arabic": "بَيْتُ التَّاجِرِ أَمَامَ الْمَسْجِدِ وَبَيْتُ الطَّبِيبِ خَلْفَ الْمَدْرَسَةِ",
+                        "transcription": "Beytu't-tâciri emâme'l-mescidi ve beytu't-tabîbi halfe'l-medreseti",
+                        "reading": "Beytu't-tâciri emâme'l-mescidi ve beytu't-tabîbi halfe'l-medreseti",
+                        "turkish": "Tüccarın evi mescidin önünde, doktorun evi ise okulun arkasındadır",
+                        "note": "Tüccarın evi mescidin önünde, doktorun evi ise okulun arkasındadır",
+                        "image": "sets/set7/images/55.png",
+                        "audio": "sets/set7/audio/word_55.mp3"
+                },
+                {
+                        "id": 56,
+                        "arabic": "هٰذِهِ السَّيَّارَةُ مِنَ الْيَابَانِ وَتِلْكَ مِنْ أَمْرِيكَا",
+                        "transcription": "Hâzihi's-seyyâratu mine'l-Yâbâni ve tilke min Emrîkâ",
+                        "reading": "Hâzihi's-seyyâratu mine'l-Yâbâni ve tilke min Emrîkâ",
+                        "turkish": "Bu araba Japonya'dan, şu ise Amerika'dandır",
+                        "note": "Bu araba Japonya'dan, şu ise Amerika'dandır",
+                        "image": "sets/set7/images/56.png",
+                        "audio": "sets/set7/audio/word_56.mp3"
+                },
+                {
+                        "id": 57,
+                        "arabic": "هٰذَا الْبَابُ مَفْتُوحٌ وَذٰلِكَ الْبَابُ مُغْلَقٌ",
+                        "transcription": "Hâze'l-bâbu meftûhun ve zâlike'l-bâbu muglakun",
+                        "reading": "Hâze'l-bâbu meftûhun ve zâlike'l-bâbu muglakun",
+                        "turkish": "Bu kapı açıktır, şu kapı ise kapalıdır",
+                        "note": "Bu kapı açıktır, şu kapı ise kapalıdır",
+                        "image": "sets/set7/images/57.png",
+                        "audio": "sets/set7/audio/word_57.mp3"
+                },
+                {
+                        "id": 58,
+                        "arabic": "لَا، هُوَ قَدِيمٌ جِدًّا",
+                        "transcription": "Lâ, huve kadîmun cidden",
+                        "reading": "Lâ, huve kadîmun cidden",
+                        "turkish": "HAYIR, O ÇOK ESKIDIR",
+                        "note": "Hayır, o çok eskidir",
+                        "image": "sets/set7/images/58.png",
+                        "audio": "sets/set7/audio/word_58.mp3"
+                },
+                {
+                        "id": 59,
+                        "arabic": "هٰذَا السِّكِّينُ مِنْ أَلْمَانْيَا وَتِلْكَ الْمِلْعَقَةُ مِنْ إِنْكَلْتِرَا",
+                        "transcription": "Hâze's-sikkînu min Elmânyâ ve tilke'l-milʿakatu min İnkelterâ",
+                        "reading": "Hâze's-sikkînu min Elmânyâ ve tilke'l-milʿakatu min İnkelterâ",
+                        "turkish": "Bu bıçak Almanya'dan, şu kaşık ise İngiltere'dendir",
+                        "note": "Bu bıçak Almanya'dan, şu kaşık ise İngiltere'dendir",
+                        "image": "sets/set7/images/59.png",
+                        "audio": "sets/set7/audio/word_59.mp3"
+                }
+        ]
 }
 };
 
