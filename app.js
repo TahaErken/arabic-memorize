@@ -821,7 +821,7 @@ function handleOptionClick(selectedItem, btnElement) {
     triggerWrongBuzzerAndHighlight();
 
     updateQuizStats();
-    startThreeSecondAutoAdvance();
+    startFiveSecondAutoAdvance();
   }
 }
 
@@ -836,7 +836,7 @@ function handleTimeout() {
   triggerWrongBuzzerAndHighlight(true);
 
   updateQuizStats();
-  startThreeSecondAutoAdvance();
+  startFiveSecondAutoAdvance();
 }
 
 // Kırmızı Dıııt, Doğru Kelimeyi Telaffuz Etme & Ana Odakta Doğru Cevabı Gösterme
@@ -899,14 +899,14 @@ function showFeedback(isCorrect, headlineText) {
   }
 }
 
-// 3 SANİYE İÇİNDE OTOMATİK GEÇİŞ
-function startThreeSecondAutoAdvance() {
+// 5 SANİYE İÇİNDE OTOMATİK GEÇİŞ (KULLANICI İSTERSE KENDİ DE GEÇEBİLİR)
+function startFiveSecondAutoAdvance() {
   const nextBtn = document.getElementById('nextQuestionBtn');
   const nextBtnText = document.getElementById('nextBtnText');
-  nextBtn.style.display = 'inline-flex';
+  if (nextBtn) nextBtn.style.display = 'inline-flex';
 
-  let countdown = 3;
-  nextBtnText.textContent = `Sonraki Soru (${countdown}s)`;
+  let countdown = 5;
+  if (nextBtnText) nextBtnText.textContent = `Sonraki Soru (${countdown}s)`;
 
   if (app.test.autoAdvanceId) {
     clearInterval(app.test.autoAdvanceId);
@@ -915,7 +915,7 @@ function startThreeSecondAutoAdvance() {
   app.test.autoAdvanceId = setInterval(() => {
     countdown--;
     if (countdown > 0) {
-      nextBtnText.textContent = `Sonraki Soru (${countdown}s)`;
+      if (nextBtnText) nextBtnText.textContent = `Sonraki Soru (${countdown}s)`;
     } else {
       clearInterval(app.test.autoAdvanceId);
       app.test.autoAdvanceId = null;
