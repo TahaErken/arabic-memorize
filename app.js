@@ -1074,34 +1074,16 @@ function updateNavStatBadge() {
 }
 
 function closeAllDropdowns() {
-  const modePopover = document.getElementById('modeDropdownPopover');
   const setPopover = document.getElementById('setDropdownPopover');
-  const modeBtn = document.getElementById('modeDropdownBtn');
   const setBtn = document.getElementById('setDropdownBtn');
 
-  if (modePopover) modePopover.classList.remove('open');
   if (setPopover) setPopover.classList.remove('open');
-  if (modeBtn) modeBtn.classList.remove('open');
   if (setBtn) setBtn.classList.remove('open');
 }
 
 function initDropdowns() {
-  const modeBtn = document.getElementById('modeDropdownBtn');
-  const modePopover = document.getElementById('modeDropdownPopover');
   const setBtn = document.getElementById('setDropdownBtn');
   const setPopover = document.getElementById('setDropdownPopover');
-
-  if (modeBtn && modePopover) {
-    modeBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const isOpen = modePopover.classList.contains('open');
-      closeAllDropdowns();
-      if (!isOpen) {
-        modePopover.classList.add('open');
-        modeBtn.classList.add('open');
-      }
-    });
-  }
 
   if (setBtn && setPopover) {
     setBtn.addEventListener('click', (e) => {
@@ -1114,14 +1096,6 @@ function initDropdowns() {
       }
     });
   }
-
-  document.querySelectorAll('#modeDropdownPopover .dropdown-popover-item').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const mode = btn.dataset.mode;
-      switchTab(mode);
-    });
-  });
 
   document.querySelectorAll('#setDropdownPopover .dropdown-popover-item').forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -1322,29 +1296,16 @@ function switchTab(tabName) {
   const learnView = document.getElementById('learnView');
   const testView = document.getElementById('testView');
   const homeNavBtn = document.getElementById('homeNavBtn');
+  const learnNavBtn = document.getElementById('learnNavBtn');
+  const testNavBtn = document.getElementById('testNavBtn');
 
   if (homeView) homeView.classList.toggle('active', tabName === 'home');
   if (learnView) learnView.classList.toggle('active', tabName === 'learn');
   if (testView) testView.classList.toggle('active', tabName === 'test');
 
   if (homeNavBtn) homeNavBtn.classList.toggle('active', tabName === 'home');
-
-  const modeIcon = document.getElementById('headerModeIcon');
-  const modeLabel = document.getElementById('headerModeLabel');
-  if (tabName === 'learn') {
-    if (modeIcon) modeIcon.textContent = '🎴';
-    if (modeLabel) modeLabel.textContent = 'Ezber Modu';
-  } else if (tabName === 'test') {
-    if (modeIcon) modeIcon.textContent = '⚡';
-    if (modeLabel) modeLabel.textContent = '7 Sn Test';
-  } else if (tabName === 'home') {
-    if (modeIcon) modeIcon.textContent = '📖';
-    if (modeLabel) modeLabel.textContent = 'Mod Seçin';
-  }
-
-  document.querySelectorAll('#modeDropdownPopover .dropdown-popover-item').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.mode === tabName);
-  });
+  if (learnNavBtn) learnNavBtn.classList.toggle('active', tabName === 'learn');
+  if (testNavBtn) testNavBtn.classList.toggle('active', tabName === 'test');
 
   closeAllDropdowns();
 
@@ -1430,6 +1391,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const homeNavBtn = document.getElementById('homeNavBtn');
   if (homeNavBtn) {
     homeNavBtn.addEventListener('click', () => switchTab('home'));
+  }
+
+  const learnNavBtn = document.getElementById('learnNavBtn');
+  if (learnNavBtn) {
+    learnNavBtn.addEventListener('click', () => switchTab('learn'));
+  }
+
+  const testNavBtn = document.getElementById('testNavBtn');
+  if (testNavBtn) {
+    testNavBtn.addEventListener('click', () => switchTab('test'));
   }
 
   const backToHomeSetsBtn = document.getElementById('backToHomeSetsBtn');

@@ -18,7 +18,7 @@
   <div class="app-container">
 
     <!-- ======================================================== -->
-    <!-- ÜST NAVİGASYON BARI (ANA SAYFA, MOD & SET DROPDOWNLARI) -->
+    <!-- ÜST NAVİGASYON BARI (ANA SAYFA, SET SEÇİMİ, EZBER & TEST BUTONLARI) -->
     <!-- ======================================================== -->
     <header class="app-header-nav">
       <div class="nav-left-group">
@@ -28,32 +28,7 @@
           <span class="btn-label">Ana Sayfa</span>
         </button>
 
-        <!-- 2. MOD SEÇİMİ DROPDOWN -->
-        <div class="dropdown-container" id="modeDropdownContainer">
-          <button class="header-dropdown-btn mode-btn" id="modeDropdownBtn" type="button" aria-expanded="false" title="Çalışma Modunu Değiştir">
-            <span class="btn-icon" id="headerModeIcon">🎴</span>
-            <span class="dropdown-selected-label" id="headerModeLabel">Ezber Modu</span>
-            <span class="dropdown-caret">▾</span>
-          </button>
-          <div class="dropdown-popover" id="modeDropdownPopover">
-            <button class="dropdown-popover-item active" data-mode="learn" type="button">
-              <span class="popover-item-icon">🎴</span>
-              <div class="popover-item-content">
-                <span class="popover-item-title">1. Ezber Modu</span>
-                <span class="popover-item-desc">Resimler, Arapça ve sesli kartlar</span>
-              </div>
-            </button>
-            <button class="dropdown-popover-item" data-mode="test" type="button">
-              <span class="popover-item-icon">⚡</span>
-              <div class="popover-item-content">
-                <span class="popover-item-title">2. 7 Sn Hızlı Test</span>
-                <span class="popover-item-desc">7 saniye hız rekoru & çoktan seçmeli</span>
-              </div>
-            </button>
-          </div>
-        </div>
-
-        <!-- 3. SET SEÇİMİ DROPDOWN -->
+        <!-- 2. SET SEÇİMİ DROPDOWN (Ana Sayfa Butonunun Hemen Yanında) -->
         <div class="dropdown-container" id="setDropdownContainer">
           <button class="header-dropdown-btn set-btn" id="setDropdownBtn" type="button" aria-expanded="false" title="Kelime Setini Değiştir">
             <span class="set-badge-icon sm" id="headerSetBadge">1</span>
@@ -120,6 +95,18 @@
             </button>
           </div>
         </div>
+
+        <!-- 3. DOĞRUDAN EZBER MODU BUTONU -->
+        <button class="header-nav-btn mode-tab-btn active" id="learnNavBtn" type="button" title="Ezber Modu: Kartlar ve Ses">
+          <span class="btn-icon">🎴</span>
+          <span class="btn-label">Ezber</span>
+        </button>
+
+        <!-- 4. DOĞRUDAN TEST MODU BUTONU -->
+        <button class="header-nav-btn mode-tab-btn" id="testNavBtn" type="button" title="Test Modu: 7 Sn Hızlı Test">
+          <span class="btn-icon">⚡</span>
+          <span class="btn-label">Test</span>
+        </button>
       </div>
 
       <div class="nav-right-group">
